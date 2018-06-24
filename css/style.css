@@ -1,30 +1,280 @@
 @font-face{
-  font-family: Roboto-Black;
-  src: url(../font/Roboto-Black.ttf);
+  font-family: Assistant-Bold;
+  src: url(../font/Assistant-Bold.ttf);
 }
 @font-face{
-  font-family: Roboto;
-  src: url(../font/Roboto.ttf);
+  font-family: Assistant-ExtraBold;
+  src: url(../font/Assistant-ExtraBold.ttf);
 }
 @font-face{
-  font-family: Roboto-Condensed;
-  src: url(../font/Roboto-Condensed.ttf);
+  font-family: Assistant-ExtraLight;
+  src: url(../font/Assistant-ExtraLight.ttf);
 }
-*{ 
-	border:none;
-	list-style:none;
-	margin:0;
-	padding:0;
+
+@font-face{
+  font-family: Assistant-Light;
+  src: url(../font/Assistant-Light.ttf);
+}
+
+@font-face{
+  font-family: Assistant-Regular;
+  src: url(../font/Assistant-Regular.ttf);
+}
+
+@font-face{
+  font-family: Assistant-SemiBold;
+  src: url(../font/Assistant-SemiBold.ttf);
+}
+
+@font-face{
+  font-family: Lora-Bold;
+  src: url(../font/Lora-Bold.ttf);
+}
+
+@font-face{
+  font-family: Lora-BoldItalic;
+  src: url(../font/Lora-BoldItalic.ttf);
+}
+
+@font-face{
+  font-family: Lora-Italic;
+  src: url(../font/Lora-Italic.ttf);
+}
+
+@font-face{
+  font-family: Lora-Regular;
+  src: url(../font/Lora-Regular.ttf);
+}
+
+*{
+  margin:0px;
+  padding:0px;
 }
 
 body{
-	overflow-x:hidden !important;
-  margin: 0 auto !important;
-  max-width: 960px !important;
-  padding:0px !important;
-  height: auto !important;
-  font-family: 'Roboto', sans-serif !important;
-  font-weight: 500px !important;
-  font-size: 1rem !important;
-  background-color: #FAFAFA !important;
+  background-color: #000000;
+  color:white;
 }
+
+header, nav, main, footer{
+}
+
+section {
+}
+
+#iconAlign{
+
+}
+
+#officeInfo{
+  margin: 0 auto;
+  align-items:center;
+  font-size: 1.1666666875rem;
+  font-family: Assistant-Light;
+}
+
+header{
+  margin: 0 auto;
+  padding-top: 1%;
+}
+
+#logoImg{
+  width: 18%;
+}
+
+#home{
+  background-image: url(../img/fondo_home.jpg);
+  margin:0 auto;
+  text-align: center;
+  min-height: 100vh;
+}
+
+#homeText{
+  padding-top: 7%;
+  font-family: Lora-Regular;
+}
+
+#homeTextTitle{
+  font-size:3.1666666875rem;
+}
+
+#homeTextDetail{
+  font-size: 1.5rem;
+  font-family: Assistant-Light;
+  padding:1%;
+}
+
+#homeContactButton{
+  font-size: 1.6666666875rem;
+  font-family: Assistant-ExtraBold;
+  padding: 1%;
+  margin-top: 3%;
+  color:#26607a;
+  margin-bottom: 10%;
+}
+
+#about{
+  background-image: url(../img/quienes_somos.jpg);
+  text-align: center;
+  min-height: 100vh;
+}
+
+#services{
+  margin: 1%;
+  background-color: black;
+  font-size: 1.3333333125rem;
+  font-family: Assistant-SemiBold;
+  padding-bottom: 1%;  
+}
+
+#services img{
+  margin-top: 5%;
+}
+
+#servicesStyle{
+  float: right;
+  margin-top: 8%;
+  text-align: left;
+}
+
+#servicwesHover{
+  background-color: black;
+  font-family: Assistant-Light;
+}
+
+#aboutTitleOne{
+ font-family: Assistant-Light;
+  font-size: 1.6666666875rem;
+  padding-top: 5%;
+}
+
+#aboutTitleTwo{
+ font-family: Lora-Regular;
+  font-size: 4.1666666875rem
+}
+
+#aboutLine{
+  border-bottom-width: 0.5rem;
+  border-bottom-color: white;
+  border-bottom-style: solid;
+  margin: 0 auto;
+  width: 11%;
+  padding: 0.5%;
+  border-color:#26607a;
+}
+
+#aboutText{
+  font-size: 1.25rem;
+  font-family: none;
+  padding-top: 1%;
+  padding-top: 4%;
+}
+
+#aboutLineBot{
+  border-bottom-width: 0.5rem;
+  border-bottom-color: white;
+  border-bottom-style: solid;
+  width: 73%;
+  margin: 0 auto;
+  padding: 0.5%;
+  border-color:#26607a;
+}
+
+#contactForm{
+  background-image: url(../img/fondo_formulario.jpg);
+  min-height: 100vh;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#formCenter{
+  width: 38%;
+  margin: 0 auto;
+  background-color: white;
+  padding-top: 1%;
+  padding-bottom: 1%;
+
+}
+
+#formFix{
+}
+
+#formAlign{
+  width: 95%;
+  border: solid;
+  margin: 0 auto;
+  border-color:#26607a;
+}
+
+#formConnect{
+  font-size: 1.25rem;
+  color:black;
+  font-family: Assistant-Light;
+  margin-top: 2%
+}
+
+#formEvaluate{
+  font-size: 1.75rem;
+  font-family: Lora-Regular;
+  color: #26607a;
+  padding: 10px;
+}
+
+#formText{
+ font-size: 1.10rem;
+  font-family: Assistant-Regular;
+  color:black; 
+}
+
+input{
+  width: 83%;
+  padding: 1%;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+   font-size: 1rem;
+  font-family: Assistant-Regular;
+  color: #7d7d7d;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+   font-size: 1rem;
+  font-family: Assistant-Regular;
+  color: #7d7d7d;
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+   font-size: 1rem;
+  font-family: Assistant-Regular;
+  color: #7d7d7d;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  font-size: 1rem;
+  font-family: Assistant-Regular;
+  color: #7d7d7d;
+}
+
+textarea {
+  resize: none;
+  width: 83%;
+  padding: 2%;
+}
+
+#btnSubmitForm{
+  font-size: 1.1rem;
+  color: white;
+  background-color: #26607a;
+  font-family: Assistant-Bold;
+  padding: 3%;
+  border-style: none;
+  width: 40%;
+}
+
+#footer{
+
+}
+
+
+/* copia */
+
