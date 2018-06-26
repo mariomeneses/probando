@@ -14,7 +14,7 @@
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/script_v1.js"></script>
 	<script src="js/jquery-3.3.1.min.js"></script>
-	<script src="js/modernizr-custom_2.js"></script>
+	<script src="js/modernizr-custom_3.js"></script>
 
 	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 	<link href="css/bootstrap-grid.min.css" rel="stylesheet" type="text/css" />
@@ -221,7 +221,6 @@
 				<div id="aboutLineBot"></div>
 			</div>
 		</section>
-
 		<section id="contactForm"><br><br><br><br>
 			<div id="formCenter" class="container">
 				<div id="formAlign">

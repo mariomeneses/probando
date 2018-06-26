@@ -87,6 +87,8 @@ header{
   margin:0 auto;
   text-align: center;
   min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #homeText{
@@ -117,17 +119,20 @@ header{
   background-image: url(../img/quienes_somos.jpg);
   text-align: center;
   min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #services{
   margin: 1%;
   background-color: black;
-  font-size: 1.3333333125rem;
+  font-size: 1.1rem;
   font-family: Assistant-SemiBold;
   padding-bottom: 1%;  
 }
 
 #services img{
+  width: 21%;
   margin-top: 5%;
 }
 
@@ -145,7 +150,7 @@ header{
 #aboutTitleOne{
  font-family: Assistant-Light;
   font-size: 1.6666666875rem;
-  padding-top: 5%;
+  padding-top: 1%;
 }
 
 #aboutTitleTwo{
@@ -185,14 +190,17 @@ header{
   min-height: 100vh;
   margin: 0 auto;
   text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #formCenter{
-  width: 38%;
-  margin: 0 auto;
-  background-color: white;
-  padding-top: 1%;
-  padding-bottom: 1%;
+    min-width: 20em;
+    margin: 0 auto;
+    background-color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    max-width: 30em;
 
 }
 
