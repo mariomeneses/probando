@@ -1,0 +1,202 @@
+@font-face{
+  font-family: Assistant-Bold;
+  src: url(../font/Assistant-Bold.ttf);
+}
+@font-face{
+  font-family: Assistant-ExtraBold;
+  src: url(../font/Assistant-ExtraBold.ttf);
+}
+@font-face{
+  font-family: Assistant-ExtraLight;
+  src: url(../font/Assistant-ExtraLight.ttf);
+}
+
+@font-face{
+  font-family: Assistant-Light;
+  src: url(../font/Assistant-Light.ttf);
+}
+
+@font-face{
+  font-family: Assistant-Regular;
+  src: url(../font/Assistant-Regular.ttf);
+}
+
+@font-face{
+  font-family: Assistant-SemiBold;
+  src: url(../font/Assistant-SemiBold.ttf);
+}
+
+@font-face{
+  font-family: Lora-Bold;
+  src: url(../font/Lora-Bold.ttf);
+}
+
+@font-face{
+  font-family: Lora-BoldItalic;
+  src: url(../font/Lora-BoldItalic.ttf);
+}
+
+@font-face{
+  font-family: Lora-Italic;
+  src: url(../font/Lora-Italic.ttf);
+}
+
+@font-face{
+  font-family: Lora-Regular;
+  src: url(../font/Lora-Regular.ttf);
+}
+
+*{
+  margin:0px;
+  padding:0px;
+}
+
+html, body{
+  background-color: #000000;
+  color:white;
+  height: 100%;
+}
+
+.fill { 
+  min-height: 100%;
+  height: 100%;
+}
+
+#contactoTop{
+  background: black;
+  margin: 0 auto;
+  max-width: 90%;
+  font-size: 0.9rem;
+  font-family: Assistant-Light;
+}
+
+#menu{
+  max-width: 90%;
+  margin: 0 auto;
+  font-size: 1rem;
+  font-family: Assistant-Light;
+}
+
+#inicio {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/fondo_home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#inicio #container {
+  padding: 15px 25px;
+  width: 100%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  text-align: center;
+}
+
+#homeTextTitle{
+  font-size: 2.5rem;
+  font-family: Lora-Regular;
+}
+
+#homeTextDetail{
+  font-size: 1.4rem;
+  font-family: Assistant-Light;
+}
+
+#homeContactButton{
+  font-size: 1.5rem;
+  font-family: Assistant-ExtraBold;
+  color:#26607a;
+}
+
+#aboutMain{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/quienes_somos.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#aboutMain #aboutContainer {
+  padding: 15px 25px;
+  width: 100%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  text-align: center;
+}
+
+#services{
+  margin: 1%;
+  background-color: black;
+  font-size: 1.2rem;
+  font-family: Assistant-SemiBold;
+  padding-bottom: 1%;  
+}
+
+#services img{
+
+}
+
+#iconOne{
+  width: 18%;
+  margin-top: 6%;
+}
+
+#iconTwo{
+  width: 18%;
+  margin-top: 11%;
+}
+
+#servicesStyle{
+  float: right;
+  margin-top: 8%;
+  text-align: left;
+}
+
+#servicwesHover{
+  background-color: black;
+  font-family: Assistant-Light;
+}
+
+#aboutTitleOne{
+ font-family: Assistant-Light;
+ font-size: 1.6666666875rem;
+ padding-top: 1%;
+}
+
+#aboutTitleTwo{
+ font-family: Lora-Regular;
+ font-size: 3.5rem
+}
+
+#aboutLine{
+  border-bottom-width: 0.5rem;
+  border-bottom-color: white;
+  border-bottom-style: solid;
+  margin: 0 auto;
+  width: 11%;
+  padding: 0.5%;
+  border-color:#26607a;
+}
+
+#aboutText{
+  font-size: 1.1rem;
+  font-family: none;
+  padding-top: 1%;
+  padding-top: 2%;
+}
+
+#aboutLineBot{
+  border-bottom-width: 0.5rem;
+  border-bottom-color: white;
+  border-bottom-style: solid;
+  width: 73%;
+  margin: 0 auto;
+  padding: 0.5%;
+  border-color:#26607a;
+}
