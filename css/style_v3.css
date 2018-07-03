@@ -59,7 +59,7 @@ body{
 header, nav, main, footer{
 }
 
-a {
+a:hover, a:visited, a:link, a:active {
   text-decoration:none;
 }
 
@@ -115,9 +115,12 @@ header{
   font-family: Assistant-ExtraBold;
   padding: 1%;
   margin-top: 3%;
-  color:#26607a;
+  color: #26607a;
   margin-bottom: 10%;
   background-color: white;
+  border-style: outset;
+  border-color: buttonface;
+  border-width: 2px;
 }
 
 #about{
@@ -128,7 +131,7 @@ header{
   background-size: cover;
 }
 
-#services{
+.services{
   margin: 1%;
   background-color: black;
   font-size: 1.1rem;
@@ -136,7 +139,7 @@ header{
   padding-bottom: 1%;  
 }
 
-#services img{
+.services img{
   width: 21%;
   margin-top: 5%;
 }
@@ -150,6 +153,10 @@ header{
 #servicwesHover{
   background-color: black;
   font-family: Assistant-Light;
+}
+
+#hrHover {
+  display:none;
 }
 
 #aboutTitleOne{

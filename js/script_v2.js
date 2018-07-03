@@ -12,3 +12,9 @@ $(document).ready(function(){
         });
     });
 });
+
+  $("#hrService").on("mouseenter", function() {
+      $("#hrHover").show();
+}).on("mouseleave", function() {
+      $("#hrHover").hide();
+});
