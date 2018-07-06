@@ -367,12 +367,18 @@ textarea {
   width: 60px;
 }
 
-#fbLogo{
-  width: 0.8%;
+#fbIcon{
+  width: 0.5rem;
+}
+
+#mailicon{
+  width: 1.6%;
 }
 
 #derechos{
   font-family: Assistant-Light;
+  font-size: 0.8rem;
+  margin-bottom: 2%;
 }
 
 

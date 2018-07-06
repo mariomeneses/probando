@@ -20,7 +20,7 @@
 	<link href="css/bootstrap-grid.min.css" rel="stylesheet" type="text/css" />
 	<link href="css/bootstrap-reboot.min.css" rel="stylesheet" type="text/css" />
 	<link href="css/reset.css" rel="stylesheet" type="text/css" />
-	<link href="css/style_v6.css" rel="stylesheet" type="text/css" />
+	<link href="css/style_v7.css" rel="stylesheet" type="text/css" />
 
 	<!--[if lt IE 9 ]>
 		<script type="text/javascript" src="js/html5shiv.min.js"></script>
@@ -266,13 +266,7 @@
 					</div>
 					<div>
 						<div id="footerLine"></div>
-						<nav>
-							<ul>
-								<li><a href="https://www.facebook.com" target="_blank"><img src="img/facebook.png" id="fbIcon" alt="facebook Rexcont"></a>&emsp;<a href="mailto:contacto@rexcont.cl"><img src="img/mail.png" id="mailicon" alt="mail Rexcont"></a></li>
-								<li>icono mail</li>
-								<li>2018 Rexcont Adviser. Todos los derechos reservados.</li>
-							</ul>
-						</nav>
+								<a href="https://www.facebook.com" target="_blank"><img src="img/facebook.png" id="fbIcon" alt="facebook Rexcont"></a>&emsp;<a href="mailto:contacto@rexcont.cl"><img src="img/mail.png" id="mailicon" alt="mail Rexcont"></a> <p class="float-xl-right" id="derechos">2018 Rexcont Adviser. Todos los derechos reservados.</p>
 					</div>
 				</div>
 			</footer>
