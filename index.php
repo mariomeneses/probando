@@ -249,10 +249,10 @@
 						<div class="col" id="footerMenu">
 							<nav>
 								<ul>
-									<li><a href="#home" id="" class="">Inicio</a><div id="footerNavLine"></div><br><br></li>
-									<li><a href="#about" class="">Servicios</a><br><br></li>
-									<li><a href="#aboutTitleOne" class="" >Nosotros</a><br><br></li>
-									<li><a href="#contactForm" class="">Contacto</a><br><br></li>
+									<li><a href="#home" id="" class="">Inicio</a><div id="footerNavLine"></div><br></li>
+									<li><a href="#about" class="">Servicios</a><div id="footerNavLine"></div><br></li>
+									<li><a href="#aboutTitleOne" class="" >Nosotros</a><div id="footerNavLine"></div><br></li>
+									<li><a href="#contactForm" class="">Contacto</a><div id="footerNavLine"></div></li>
 								</ul>
 							</nav>							
 						</div>
