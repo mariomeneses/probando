@@ -65,7 +65,7 @@
 						<section>
 							<p id="homeTextTitle">“Nuestro compromiso<br>es dar soluciones reales”</p>
 							<p id="homeTextDetail">
-							<br>
+								<br>
 								Somos un estudio contable que presta asesor&iacute;as y servicios a peque&ntilde;as y <br>
 								medianas empresas, en el &aacute;rea contable, financiera, tributaria y laboral. <br>
 								Contamos con profesionales de amplia experiencia
@@ -168,11 +168,11 @@
 								<div id="servicesStyle">
 									<!-- hover servicios -->
 									<div id="servicesHover">
-											• Evaluaci&oacute;n Financiera Empresa.<br>
-											• Evaluaci&oacute;n de recursos humanos.<br>
-											• Evaluaci&oacute;n de costos.<br>
-											• Reestructuraci&oacute;n departamentos.<br>
-											• T&eacute;rminos de giro<br><br>
+										• Evaluaci&oacute;n Financiera Empresa.<br>
+										• Evaluaci&oacute;n de recursos humanos.<br>
+										• Evaluaci&oacute;n de costos.<br>
+										• Reestructuraci&oacute;n departamentos.<br>
+										• T&eacute;rminos de giro<br><br>
 										*Consulte por servicios especiales en regiones.
 									</div>
 								</div>
@@ -224,7 +224,7 @@
 							Evaluamos su caso
 						</p>
 						<p id="formText">
-							Ll&aacute;menos a los tel&eacute;fonos 2 2605 12 44 y 2 2605 1245,<br>
+							Ll&aacute;menos a los tel&eacute;fonos 2 2605 1244 y 2 2605 1245,<br>
 							o complete el siguiente formulario y nos pondremos <br>
 							en contacto con Ud. lo antes posible. <br><br>
 						</p>
@@ -240,35 +240,35 @@
 					</div>
 				</div>
 			</section>
-			<footer>
+			<footer id="footer">
 				<div class="container">
 					<div class="row">
-						<div class="col">
-							LOGO
+						<div class="col" id="">
+							<img src="img/rexcont_logo.png" id="footerLogo" alt="Logo Rexcont">
 						</div>
-						<div class="col">
+						<div class="col" id="footerMenu">
 							<nav>
 								<ul>
-									<li>Inicio</li>
-									<li>Servicios</li>
-									<li>Nosotros</li>
-									<li>Contacto</li>
+									<li><a href="#home" id="" class="">Inicio</a><div id="footerNavLine"></div><br><br></li>
+									<li><a href="#about" class="">Servicios</a><br><br></li>
+									<li><a href="#aboutTitleOne" class="" >Nosotros</a><br><br></li>
+									<li><a href="#contactForm" class="">Contacto</a><br><br></li>
 								</ul>
-							</nav>
+							</nav>							
 						</div>
-						<div class="col">
-							<ul>
-								<li>Oficinas</li>
-								<li>Ahumada #131, Of. 915, Santiago, Chile.</li>
-								<li>Correo: contacto@rexcont.cl</li>
-								<li>Tel&eacute;fono 2 2605 1244 / 2 2605 1245</li>
-							</ul>
+						<div class="col" id="footerMenu">
+							Oficinas<br><br>
+							Ahumada #131, Of. 915, Santiago, Chile.<br><br>
+							Correo: contacto@rexcont.cl<br><br>
+							Tel&eacute;fono 2 2605 1244 / 2 2605 1245
 						</div>
+						<div class="col"></div>
 					</div>
 					<div>
+						<div id="footerLine"></div>
 						<nav>
 							<ul>
-								<li>icono fb</li>
+								<li><img src="img/facebook.png" id="fbIcon" alt="facebook Rexcont">&emsp;<img src="img/mail.png" id="mailicon" alt="mail Rexcont"></li>
 								<li>icono mail</li>
 								<li>2018 Rexcont Adviser. Todos los derechos reservados.</li>
 							</ul>

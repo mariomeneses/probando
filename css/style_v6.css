@@ -59,8 +59,13 @@ body{
 header, nav, main, footer{
 }
 
+a{
+  text-decoration:none;
+  color:white;
+}
 a:hover, a:visited, a:link, a:active {
   text-decoration:none;
+  color:white;
 }
 
 section {
@@ -326,10 +331,52 @@ textarea {
 }
 
 #footer{
+  margin-top: 3%;
+ font-family: Assistant-Light;
+}
 
+#footerNav{
+  color;#686969;
 }
 
 
+#footerMenu{
+  color:#686969;
+}
+
+#footerLine{
+  border-bottom-width: 0.1rem;
+  border-bottom-color: #686969;
+  border-bottom-style: solid;
+  /* margin: 0 auto; */
+  width: 100%;
+  padding: 1.5%;
+  margin-bottom: 1%;
+}
+
+#footerLogo{
+  margin-left: 21%;
+}
+
+#footerLogo{
+  width: 50%;
+}
+
+a:hover #footerNavLine{
+display:block;
+}
+
+#footerNavLine{
+  display:none;
+  border-bottom-color: white;
+  border-bottom-style: solid;
+  border-width: 1px;
+  width: 24%;
+}
+
+#fbLogo{
+  width: 0.8%;
+}
 /* copia */
 
 
