@@ -268,7 +268,7 @@
 						<div id="footerLine"></div>
 						<nav>
 							<ul>
-								<li><img src="img/facebook.png" id="fbIcon" alt="facebook Rexcont">&emsp;<img src="img/mail.png" id="mailicon" alt="mail Rexcont"></li>
+								<li><a href="https://www.facebook.com" target="_blank"><img src="img/facebook.png" id="fbIcon" alt="facebook Rexcont"></a>&emsp;<a href="mailto:contacto@rexcont.cl"><img src="img/mail.png" id="mailicon" alt="mail Rexcont"></a></li>
 								<li>icono mail</li>
 								<li>2018 Rexcont Adviser. Todos los derechos reservados.</li>
 							</ul>
