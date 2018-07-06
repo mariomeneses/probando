@@ -11,7 +11,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Contador</title>
 	<script src="js/jquery-3.3.1.min.js"></script>
-	<script src="js/script_v3.js"></script>
+	<script src="js/script_v7.js"></script>
 	<script src="js/bootstrap.bundle.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/modernizr-custom_3.js"></script>
@@ -20,7 +20,7 @@
 	<link href="css/bootstrap-grid.min.css" rel="stylesheet" type="text/css" />
 	<link href="css/bootstrap-reboot.min.css" rel="stylesheet" type="text/css" />
 	<link href="css/reset.css" rel="stylesheet" type="text/css" />
-	<link href="css/style_v3.css" rel="stylesheet" type="text/css" />
+	<link href="css/style_v6.css" rel="stylesheet" type="text/css" />
 
 	<!--[if lt IE 9 ]>
 		<script type="text/javascript" src="js/html5shiv.min.js"></script>
@@ -61,15 +61,16 @@
 							</div>
 						</nav>
 					</header>
-					<div class="container" id="homeText">
+					<div class="container alignCenter" id="homeText">
 						<section>
-							<p id="homeTextTitle">“Nuestro compromiso es <br>dar soluciones reales”</p>
+							<p id="homeTextTitle">“Nuestro compromiso<br>es dar soluciones reales”</p>
 							<p id="homeTextDetail">
+							<br>
 								Somos un estudio contable que presta asesor&iacute;as y servicios a peque&ntilde;as y <br>
 								medianas empresas, en el &aacute;rea contable, financiera, tributaria y laboral. <br>
 								Contamos con profesionales de amplia experiencia
 							</p>
-							<br><br>
+							<br><br><br>
 							<a href="#contactForm" id="homeContactButton">CONT&Aacute;CTENOS</a>
 						</section>
 					</div>
@@ -78,101 +79,107 @@
 			<section id="about">
 				<div class="container">
 					<div class="row">
-						<div id="hrService" class="col services">
-							<img src="img/AREA_RECURSOS_HUMANOS.png" alt="&Aacute;rea Recursos humanos">
-							<div id="servicesStyle">
-								&Aacute;REA <br>
-								RECURSOS <br>
-								HUMANOS
+						<div class="col services">
+							<div id="hrService" class="services">
+								<img src="img/AREA_RECURSOS_HUMANOS.png" alt="&Aacute;rea Recursos humanos">
+								<div id="servicesStyle">
+									&Aacute;REA <br>
+									RECURSOS <br>
+									HUMANOS
+								</div>
+							</div>
+							<div id="hrHover" class="servicesDetail">
+								<div id="servicesStyle">
+									<!-- hover servicios -->
+									<div id="servicesHover">
+										• Confecci&oacute;n Contratos de Trabajo.<br>
+										• Confecci&oacute;n Finiquitos.<br>
+										• Confecci&oacute;n Liquidaciones de Sueldo.<br>
+										• Confecci&oacute;n y cargas Leyes Sociales Previred.<br>
+										• Contratos especiales y ofertas de trabajo a extranjeros.<br>
+										• Orientaci&oacute;n para tr&aacute;mites de extranjer&iacute; e.<br>
+										Instituciones Previsionales.<br>
+										• Asesor&iacute;s Telef&oacute;nicas RR HH.<br>
+									</div>
+								</div>
 							</div>
 						</div>
-						<div id="contService" class="col  services">
-							<img src="img/AREA_CONTABLE_Y_TRIBUTARIA.png" alt="&Aacute;rea Contable y tributaria">
-							<div id="servicesStyle">
-								&Aacute;REA <br>
-								CONTABLE Y <br>
-								TRIBUTARIA
+						<div class="col services">
+							<div id="contService" class="services">
+								<img src="img/AREA_CONTABLE_Y_TRIBUTARIA.png" alt="&Aacute;rea Contable y tributaria">
+								<div id="servicesStyle">
+									&Aacute;REA <br>
+									CONTABLE Y <br>
+									TRIBUTARIA
+								</div>
+							</div>
+							<div id="contHover" class="servicesDetail">
+								<div id="servicesStyle">
+									<!-- hover servicios -->
+									<div id="servicesHover">
+										• Renta Presunta*.<br>
+										• Tributaci&oacute;n Simplificada (Art&iacute;culo 14 ter Letra A)*.<br>
+										• Renta Atribuida (Art. 14 A)*.<br>
+										• Semi Integrado (Art. 14 B)*.<br>
+										• Calculo, cargas y  pago de impuestos online.<br>
+										• Confecci&oacute;n contabilidad de acuerdo a normas vigentes.<br>
+										• Confecci&oacute;n Balance y Pre-Balance.<br>
+										• Calculo y carga de impuesto a la renta online.<br>
+										• Impuestos diferidos.<br>
+										• Asesor&iacute;as Tributarias.<br><br>
+										*Nuevos reg&iacute;menes tributarios por reforma tributaria vigente.
+									</div>
+								</div>
 							</div>
 						</div>
-						<div id="startService" class="col  services">
-							<img src="img/SERVICIOS_DE_PUESTA_EN_MARCHA.png" alt="Servicios de puesta en marcha">
-							<div id="servicesStyle">
-								SERVICIOS <br>
-								DE PUESTA <br>
-								EN MARCHA
+						<div class="col services">
+							<div id="startService" class="services">
+								<img src="img/SERVICIOS_DE_PUESTA_EN_MARCHA.png" alt="Servicios de puesta en marcha">
+								<div id="servicesStyle">
+									SERVICIOS <br>
+									DE PUESTA <br>
+									EN MARCHA
+								</div>
+							</div>
+							<div id="startHover" class="servicesDetailTwo">
+								<div id="servicesStyle">
+									<!-- hover servicios -->
+									<div id="servicesHover">
+										• Confecci&oacute;n Escrituras Sociales empresas en un día.<br>
+										• Iniciaci&oacute;n de Actividades.<br>
+										• Evaluaci&oacute;n de personal.<br>
+										• Configuraci&oacute;n e Implementaci&oacute;n de Factura Electr&oacute;nica SII o de mercado.<br>
+										• Capacitaciones facturaci&oacute;n electr&oacute;nica.<br>
+										• Otros servicios adicionales para la puesta en marcha.<br>
+									</div>
+								</div>
 							</div>
 						</div>
-						<div id="enterpriseService" class="col  services">
-							<img src="img/REINICIO_O_TERMINO_DE_EMPRESAS.png" alt="Reinicio o t&eacute;rmino de empresas">
-							<div id="servicesStyle">
-								REINICIO <br>
-								O T&Eacute;RMINO<br>
-								DE EMPRESAS
+						<div class="col services">
+							<div id="enterpriseService" class="services">
+								<img src="img/REINICIO_O_TERMINO_DE_EMPRESAS.png" alt="Reinicio o t&eacute;rmino de empresas">
+								<div id="servicesStyle">
+									REINICIO <br>
+									O T&Eacute;RMINO<br>
+									DE EMPRESAS
+								</div>
+							</div>
+							<div id="enterpriseHover" class="col servicesDetailTwo">
+								<div id="servicesStyle">
+									<!-- hover servicios -->
+									<div id="servicesHover">
+											• Evaluaci&oacute;n Financiera Empresa.<br>
+											• Evaluaci&oacute;n de recursos humanos.<br>
+											• Evaluaci&oacute;n de costos.<br>
+											• Reestructuraci&oacute;n departamentos.<br>
+											• T&eacute;rminos de giro<br><br>
+										*Consulte por servicios especiales en regiones.
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
-					<div class="row">
-						<div id="hrHover" class="col services">
-							<div id="servicesStyle">
-								<!-- hover servicios -->
-								<div id="servicesHover">
-									<ul>
-										<li>• Evaluaci&oacute;n Financiera Empresa.</li>
-										<li>• Evaluaci&oacute;n de recursos humanos.</li>
-										<li>• Evaluaci&oacute;n de costos.</li>
-										<li>• Reestructuraci&oacute;n departamentos..</li>
-										<li>• T&eacute;rminos de giro</li>
-									</ul>
-									*Consulte por servicios especiales en regiones.
-								</div>
-							</div>
-						</div>
-						<div id="contHover" class="col services">
-							<div id="servicesStyle">
-								<!-- hover servicios -->
-								<div id="servicesHover">
-									<ul>
-										<li>• Evaluaci&oacute;n Financiera Empresa.</li>
-										<li>• Evaluaci&oacute;n de recursos humanos.</li>
-										<li>• Evaluaci&oacute;n de costos.</li>
-										<li>• Reestructuraci&oacute;n departamentos..</li>
-										<li>• T&eacute;rminos de giro</li>
-									</ul>
-									*Consulte por servicios especiales en regiones.
-								</div>
-							</div>
-						</div>
-						<div id="startHover" class="col services">
-							<div id="servicesStyle">
-								<!-- hover servicios -->
-								<div id="servicesHover">
-									<ul>
-										<li>• Evaluaci&oacute;n Financiera Empresa.</li>
-										<li>• Evaluaci&oacute;n de recursos humanos.</li>
-										<li>• Evaluaci&oacute;n de costos.</li>
-										<li>• Reestructuraci&oacute;n departamentos..</li>
-										<li>• T&eacute;rminos de giro</li>
-									</ul>
-									*Consulte por servicios especiales en regiones.
-								</div>
-							</div>
-						</div>
-						<div id="enterpriseHover" class="col services">
-							<div id="servicesStyle">
-								<!-- hover servicios -->
-								<div id="servicesHover">
-									<ul>
-										<li>• Evaluaci&oacute;n Financiera Empresa.</li>
-										<li>• Evaluaci&oacute;n de recursos humanos.</li>
-										<li>• Evaluaci&oacute;n de costos.</li>
-										<li>• Reestructuraci&oacute;n departamentos..</li>
-										<li>• T&eacute;rminos de giro</li>
-									</ul>
-									*Consulte por servicios especiales en regiones.
-								</div>
-							</div>
-						</div>
-					</div>
+					<br><br><br>
 					<p id="aboutTitleOne">QUIENES</p>
 					<p id="aboutTitleTwo">SOMOS</p>
 					<div id="aboutLine"></div>
