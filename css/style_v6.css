@@ -355,18 +355,16 @@ textarea {
 }
 
 #footerLogo{
-  margin-left: 21%;
-}
-
-#footerLogo{
-  width: 50%;
+  width: 12.12rem;
 }
 
 #footerNavLine{
   border-bottom-color: white;
   border-bottom-style: solid;
   border-width: 1px;
-  width: 24%;
+  min-width: 24%;
+  max-width: 100%;
+  width: 60px;
 }
 
 #fbLogo{
