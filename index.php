@@ -70,16 +70,16 @@
 							</button>
 							<div class="navbar-collapse collapse" id="collapsingNavbar3">
 								<ul class="navbar-nav mx-auto">
-									<li class="nav-item active">
+									<li class="nav-item active" data-toggle="collapse" data-target="#collapsingNavbar3">
 										<a id="linkMenu" href="#home" class="nav-link">Inicio</a>
 									</li>
-									<li class="nav-item">
+									<li class="nav-item" data-toggle="collapse" data-target="#collapsingNavbar3">
 										<a id="linkMenu" href="#about" class="nav-link" >Quienes somos</a>
 									</li>
-									<li class="nav-item">
+									<li class="nav-item" data-toggle="collapse" data-target="#collapsingNavbar3">
 										<a id="linkMenu" href="#about" class="nav-link">Servicios</a>
 									</li>
-									<li class="nav-item">
+									<li class="nav-item" data-toggle="collapse" data-target="#collapsingNavbar3">
 										<a id="linkMenu" href="#contactForm" class="nav-link">Contacto</a>
 									</li>
 								</ul>
