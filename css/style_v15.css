@@ -84,7 +84,6 @@ section {
 
 header{
   margin: 0 auto;
-  padding-top: 1%;
 }
 
 #myNavbar{
@@ -517,6 +516,7 @@ textarea {
 
 }
 
+/* icono menu*/
 .navbar-light .navbar-toggler-icon {
   background-image: url(data:image/svg+xml;..);
 }

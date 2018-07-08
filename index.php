@@ -206,7 +206,7 @@
 							</div>
 						</div>
 					</div>
-				</div><br><br><br><br><br>
+				</div><br>
 				<p id="aboutTitleOne">QUIENES</p>
 				<p id="aboutTitleTwo">SOMOS</p>
 				<div id="aboutLine"></div>
@@ -242,7 +242,7 @@
 				</div>
 			</section>
 			<div id="aboutLineBot" class="container"></div>
-			<section id="contactForm"><br><br><br><br><br><br><br><br><br><br><br>
+			<section id="contactForm"><br><br><br><br>
 				<div id="formCenter" class="container">
 					<div id="formAlign">
 						<p id="formConnect">
