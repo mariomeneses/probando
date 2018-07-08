@@ -20,7 +20,7 @@
 	<link href="css/bootstrap-grid.min.css" rel="stylesheet" type="text/css" />
 	<link href="css/bootstrap-reboot.min.css" rel="stylesheet" type="text/css" />
 	<link href="css/reset.css" rel="stylesheet" type="text/css" />
-	<link href="css/style_v13.css" rel="stylesheet" type="text/css" />
+	<link href="css/style_v15.css" rel="stylesheet" type="text/css" />
 
 	<!--[if lt IE 9 ]>
 		<script type="text/javascript" src="js/html5shiv.min.js"></script>
@@ -29,19 +29,16 @@
 		<![endif]-->
 	</head>
 	<body>		
-
-		<div id="home">
 		<div class="fixed-top">
-
 			<div id="homeDetail">
-						<div class="d-flex justify-content-end container" id="officeInfo">
-				<img src="img/reloj.png" alt="Reloj Rexcont">
-				<div class="mr-auto p-2">Lunes a Viernes 08:30 &#8226; 18:30</div>
-				<img src="img/mail.png" alt="Mail Rexcont">
-				<div class="p-2"><a href="mailto:contacto@rexcont.cl">contacto@rexcont.cl</a></div>
-				<img src="img/telefono.png" alt="telefono_rexcont">
-				<div class="p-2"><a href="tel:2 2605 1244">2 2605 1244</a> / <a href="tel:2 2605 1245">2 2605 1245</a></div>
-			</div>
+				<div class="d-flex justify-content-end container" id="officeInfo">
+					<img src="img/reloj.png" alt="Reloj Rexcont">
+					<div class="mr-auto p-2">Lunes a Viernes 08:30 &#8226; 18:30</div>
+					<img src="img/mail.png" alt="Mail Rexcont">
+					<div class="p-2"><a href="mailto:contacto@rexcont.cl">contacto@rexcont.cl</a></div>
+					<img src="img/telefono.png" alt="telefono_rexcont">
+					<div class="p-2"><a href="tel:2 2605 1244">2 2605 1244</a> / <a href="tel:2 2605 1245">2 2605 1245</a></div>
+				</div>
 				<header class="">
 					<nav id="myNavbar" class="navbar navbar-expand-md ">
 						<div class="container">
@@ -55,10 +52,10 @@
 										<a id="linkMenu" href="#about" class="nav-link" >Quienes somos</a>
 									</li>
 									<li class="nav-item">
-										<a id="linkMenu" href="#hrService" class="nav-link">Servicios</a>
+										<a id="linkMenu" href="#about" class="nav-link">Servicios</a>
 									</li>
 									<li class="nav-item">
-										<a id="linkMenu" href="#aboutLineBot" class="nav-link">Contacto</a>
+										<a id="linkMenu" href="#contactForm" class="nav-link">Contacto</a>
 									</li>
 								</ul>
 							</div>
@@ -67,6 +64,7 @@
 				</header>
 			</div>
 		</div>
+		<div id="home">
 			<div class="container alignCenter" id="homeText">
 				<section>
 					<p id="homeTextTitle">“Nuestro compromiso<br>es dar soluciones reales”</p>
@@ -183,7 +181,7 @@
 							</div>
 						</div>
 					</div>
-				</div>
+				</div><br><br><br><br><br>
 				<p id="aboutTitleOne">QUIENES</p>
 				<p id="aboutTitleTwo">SOMOS</p>
 				<div id="aboutLine"></div>
@@ -219,7 +217,7 @@
 				</div>
 			</section>
 			<div id="aboutLineBot" class="container"></div>
-			<section id="contactForm"><br><br><br><br>
+			<section id="contactForm"><br><br><br><br><br><br><br><br><br><br><br>
 				<div id="formCenter" class="container">
 					<div id="formAlign">
 						<p id="formConnect">
