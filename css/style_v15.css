@@ -108,7 +108,7 @@ header{
   width: 14%
 }
 
-.navbar{
+#navbar{
   padding:0 !important;
   display: none;
 }
@@ -436,18 +436,18 @@ textarea {
     display:none !important;
   }
 
-  .navbar{
-    display:flex;
-  }
+
 }
 
 @media screen and (max-width: 767px) {
 
   #officeInfo, #myNavbar{
-    display:none !important;
+    display:none;
   }
 
-
+  #navbar{
+    display:flex;
+  }
 
 }
 
