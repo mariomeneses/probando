@@ -20,6 +20,7 @@
 	<link href="css/bootstrap-grid.min.css" rel="stylesheet" type="text/css" />
 	<link href="css/bootstrap-reboot.min.css" rel="stylesheet" type="text/css" />
 	<link href="css/reset.css" rel="stylesheet" type="text/css" />
+	<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 	<link href="css/style_v15.css" rel="stylesheet" type="text/css" />
 
 	<!--[if lt IE 9 ]>
@@ -28,7 +29,7 @@
 		<script type="text/javascript" src="js/respond.min.js"></script>
 		<![endif]-->
 	</head>
-	<body>		
+	<body>	
 		<div class="fixed-top">
 			<div id="homeDetail">
 				<div class="d-flex justify-content-end container" id="officeInfo">
@@ -61,6 +62,31 @@
 							</div>
 						</div>
 					</nav>
+					<div class="container"><br>
+						<nav class="navbar">
+							<img src="img/rexcont_logo.png" id="logoImg" alt="Logo Rexcont">
+							<button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
+								<span class="navbar-toggler-icon">
+								</span>
+							</button>
+							<div class="navbar-collapse collapse" id="collapsingNavbar3">
+								<ul class="navbar-nav mx-auto">
+									<li class="nav-item active">
+										<a id="linkMenu" href="#home" class="nav-link">Inicio</a>
+									</li>
+									<li class="nav-item">
+										<a id="linkMenu" href="#about" class="nav-link" >Quienes somos</a>
+									</li>
+									<li class="nav-item">
+										<a id="linkMenu" href="#about" class="nav-link">Servicios</a>
+									</li>
+									<li class="nav-item">
+										<a id="linkMenu" href="#contactForm" class="nav-link">Contacto</a>
+									</li>
+								</ul>
+							</div>
+						</nav>
+					</div>
 				</header>
 			</div>
 		</div>

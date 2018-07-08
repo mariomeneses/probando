@@ -110,7 +110,10 @@ header{
 
 .navbar{
   padding:0 !important;
+  display: none;
 }
+
+
 
 .fixed-top{
   background: #000000;
@@ -432,12 +435,20 @@ textarea {
   #hrHover, #contHover, #startHover, #enterpriseHover{
     display:none !important;
   }
+
+  .navbar{
+    display:flex;
+  }
 }
 
 @media screen and (max-width: 767px) {
 
-  #topMenu{
+  #officeInfo, #myNavbar{
+    display:none !important;
   }
+
+
+
 }
 
 
@@ -475,14 +486,14 @@ textarea {
 
 @media screen and (max-width: 414px) {
 
-#footerLogo {
+  #footerLogo {
     width: 12.12rem;
-}
+  }
 
-#ulFooterMenu{
-      margin-left: 34px;
+  #ulFooterMenu{
+    margin-left: 34px;
 
-}
+  }
 
 }
 
@@ -495,13 +506,21 @@ textarea {
 
 @media screen and (max-width: 320px) {
 
-#footerLogo {
+  #footerLogo {
     width: 12.12rem;
-}
+  }
 
-#logoFoot {
+  #logoFoot {
     margin-left: 18%;
     margin-bottom: 8%;
+  }
+
 }
 
+.navbar-light .navbar-toggler-icon {
+  background-image: url(data:image/svg+xml;..);
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
