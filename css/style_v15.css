@@ -104,7 +104,8 @@ header{
 }
 
 #logoImg{
-  width: 14%
+  width: 14%;
+  margin-bottom: 20px;
 }
 
 #navbar{
@@ -112,11 +113,15 @@ header{
   display: none;
 }
 
-
-
 .fixed-top{
   background: #000000;
   padding-bottom: 10px;
+}
+
+#botonMenuMobile{
+  margin-top: -22px;
+  border-color: #26607a;
+  border-width: 2px;
 }
 
 #home{
@@ -457,7 +462,7 @@ textarea {
     display:none !important;
   }
   #logoImg {
-    width: 58%;
+  width: 40%;
   }
 
   #ulFooterMenu{

@@ -64,7 +64,7 @@
 					<div class="container"><br>
 						<nav class="navbar" id="navbar">
 							<img src="img/rexcont_logo.png" id="logoImg" alt="Logo Rexcont">
-							<button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
+							<button class="navbar-toggler ml-auto custom-toggler" id="botonMenuMobile" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
 								<span class="navbar-toggler-icon">
 								</span>
 							</button>
