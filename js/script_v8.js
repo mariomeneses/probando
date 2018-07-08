@@ -68,7 +68,7 @@ $(document).ready(function() {
   });
 
 // hover menu inferior
-
+/*
   $("#homeFooter").hover(
     function() {
       $("#footerNavLineHome").slideDown(500);
@@ -81,6 +81,6 @@ $(document).ready(function() {
   }, function(){
     $("#footerNavLineHome").css("display: none");
   });
-
+*/
 
 });
