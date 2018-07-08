@@ -20,7 +20,6 @@
 	<link href="css/bootstrap-grid.min.css" rel="stylesheet" type="text/css" />
 	<link href="css/bootstrap-reboot.min.css" rel="stylesheet" type="text/css" />
 	<link href="css/reset.css" rel="stylesheet" type="text/css" />
-	<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 	<link href="css/style_v15.css" rel="stylesheet" type="text/css" />
 
 	<!--[if lt IE 9 ]>
