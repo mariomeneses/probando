@@ -113,6 +113,10 @@ header{
   display: none;
 }
 
+button:focus {
+ outline: 0;
+}
+
 .fixed-top{
   background: #000000;
 }

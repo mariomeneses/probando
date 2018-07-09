@@ -204,7 +204,7 @@
 							</div>
 						</div>
 					</div>
-				</div><br>
+				</div>
 				<p id="aboutTitleOne">QUIENES</p>
 				<p id="aboutTitleTwo">SOMOS</p>
 				<div id="aboutLine"></div>
@@ -236,7 +236,6 @@
 							Rexcont Adviser.
 						</p>
 					</div>
-					<br>
 				</div>
 			</section>
 			<div id="aboutLineBot" class="container"></div>
