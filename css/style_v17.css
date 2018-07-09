@@ -318,6 +318,8 @@ header{
 input{
   width: 80%;
   padding: 1%;
+  font-family: Assistant-Regular;
+  font-size: 0.8rem;
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
