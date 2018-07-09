@@ -277,7 +277,7 @@
 								<ul class="ulFooterMenu">
 									<li><a href="#home" id="homeFooter" class="footerMenuColor">Inicio</a><div id="footerNavLineHome"></div><br></li><br>
 									<li><a href="#about" id="aboutFooter" class="footerMenuColor">Servicios</a><div id="footerNavLineAbout"></div><br></li><br>
-									<li><a href="#aboutTitleOne" id="usFooter" class="footerMenuColor" >Nosotros</a><div id="footerNavLineUs"></div><br></li><br>
+									<li><a href="#about" id="usFooter" class="footerMenuColor" >Nosotros</a><div id="footerNavLineUs"></div><br></li><br>
 									<li><a href="#contactForm" id="contactFooter" class="footerMenuColor">Contacto</a><div id="footerNavLineContact"></div></li>
 								</ul>
 							</nav>							
