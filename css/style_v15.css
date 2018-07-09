@@ -456,7 +456,7 @@ textarea {
 }
 
 
-@media screen and (max-width: 538px) {
+@media screen and (max-width: 539px) {
 
   #officeInfo{
     display:none !important;
@@ -520,6 +520,13 @@ textarea {
   }
 
 }
+
+
+@media (max-width:540px) and (min-width:443px) {
+    .foo {
+        display:none;
+    }
+}​
 
 /* icono menu*/
 .navbar-light .navbar-toggler-icon {

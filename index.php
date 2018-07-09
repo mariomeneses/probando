@@ -256,14 +256,15 @@
 							o complete el siguiente formulario y nos pondremos <br>
 							en contacto con Ud. lo antes posible. <br><br>
 						</p>
-						<form action="">
+						<form action="" id="contact_form">
 							<div class="form-group">
-								<input type="text" id="nameInput" placeholder="Nombre"><br><br>
-								<input type="email" id="emailInput" aria-describedby="emailHelp" placeholder="Correo"><br><br>
-								<input type="text" id="phoneInput" aria-describedby="emailHelp" placeholder="Tel&eacute;fono"><br><br>
-								<textarea id="descriptionInput" placeholder="Descripci&oacute;n de su caso" rows="7"></textarea><br><br>
+								<input type="text" id="nameInput" name="nameInput" placeholder="Nombre"><br><br>
+								<input type="email" id="emailInput" name="emailInput" aria-describedby="emailHelp" placeholder="Correo"><br><br>
+								<input type="text" id="phoneInput" name="phoneInput" placeholder="Tel&eacute;fono"><br><br>
+								<textarea id="descriptionInput" id="descriptionInput" placeholder="Descripci&oacute;n de su caso" rows="7"></textarea><br><br>
 								<button type="submit" id="btnSubmitForm">ENVIAR CONSULTA</button>
 							</div>
+							<div id="result"></div>
 						</form>
 					</div>
 				</div>
