@@ -11,7 +11,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Contador</title>
 	<script src="js/jquery-3.3.1.min.js"></script>
-	<script src="js/script_v10.js"></script>
+	<script src="js/script_v11.js"></script>
 	<script src="js/bootstrap.bundle.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/modernizr-custom_3.js"></script>
@@ -20,7 +20,7 @@
 	<link href="css/bootstrap-grid.min.css" rel="stylesheet" type="text/css" />
 	<link href="css/bootstrap-reboot.min.css" rel="stylesheet" type="text/css" />
 	<link href="css/reset.css" rel="stylesheet" type="text/css" />
-	<link href="css/style_v16.css" rel="stylesheet" type="text/css" />
+	<link href="css/style_v17.css" rel="stylesheet" type="text/css" />
 
 	<!--[if lt IE 9 ]>
 		<script type="text/javascript" src="js/html5shiv.min.js"></script>
