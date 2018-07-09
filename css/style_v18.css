@@ -540,9 +540,9 @@ textarea {
 }
 
 
-@media (max-width:540px) and (min-width:443px) {
-    .foo {
-        display:none;
+@media (max-width:539px) and (min-width:382px) {
+    .fixMenuBottom {
+        margin-left: 15%;
     }
 }​
 

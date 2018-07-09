@@ -20,7 +20,7 @@
 	<link href="css/bootstrap-grid.min.css" rel="stylesheet" type="text/css" />
 	<link href="css/bootstrap-reboot.min.css" rel="stylesheet" type="text/css" />
 	<link href="css/reset.css" rel="stylesheet" type="text/css" />
-	<link href="css/style_v17.css" rel="stylesheet" type="text/css" />
+	<link href="css/style_v18.css" rel="stylesheet" type="text/css" />
 
 	<!--[if lt IE 9 ]>
 		<script type="text/javascript" src="js/html5shiv.min.js"></script>
@@ -272,7 +272,7 @@
 						<div class="col" id="logoFoot">
 							<img src="img/rexcont_logo.png" id="footerLogo" alt="Logo Rexcont">
 						</div>
-						<div class="col" id="footerMenu">
+						<div class="col fixMenuBottom" id="footerMenu">
 							<nav>
 								<ul class="ulFooterMenu">
 									<li><a href="#home" id="homeFooter" class="footerMenuColor">Inicio</a><div id="footerNavLineHome"></div><br></li><br>
