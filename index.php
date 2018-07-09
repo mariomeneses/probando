@@ -236,7 +236,7 @@
 							Rexcont Adviser.
 						</p>
 					</div>
-				</div>
+				</div><br>
 			</section>
 			<div id="aboutLineBot" class="container"></div>
 			<section id="contactForm"><br><br><br><br>
