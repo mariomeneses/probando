@@ -11,7 +11,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Contador</title>
 	<script src="js/jquery-3.3.1.min.js"></script>
-	<script src="js/script_v8.js"></script>
+	<script src="js/script_v10.js"></script>
 	<script src="js/bootstrap.bundle.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/modernizr-custom_3.js"></script>
@@ -20,7 +20,7 @@
 	<link href="css/bootstrap-grid.min.css" rel="stylesheet" type="text/css" />
 	<link href="css/bootstrap-reboot.min.css" rel="stylesheet" type="text/css" />
 	<link href="css/reset.css" rel="stylesheet" type="text/css" />
-	<link href="css/style_v15.css" rel="stylesheet" type="text/css" />
+	<link href="css/style_v16.css" rel="stylesheet" type="text/css" />
 
 	<!--[if lt IE 9 ]>
 		<script type="text/javascript" src="js/html5shiv.min.js"></script>
@@ -30,8 +30,7 @@
 	</head>
 	<body>	
 		<div class="fixed-top">
-			<div id="homeDetail">
-				<div class="d-flex justify-content-end container" id="officeInfo">
+			<div class="d-flex justify-content-end container" id="officeInfo">
 					<img src="img/reloj.png" alt="Reloj Rexcont">
 					<div class="mr-auto p-2">Lunes a Viernes 08:30 &#8226; 18:30</div>
 					<img src="img/mail.png" alt="Mail Rexcont">
@@ -87,7 +86,6 @@
 						</nav>
 					</div>
 				</header>
-			</div>
 		</div>
 		<div id="home">
 			<div class="container alignCenter" id="homeText">
@@ -256,16 +254,16 @@
 							o complete el siguiente formulario y nos pondremos <br>
 							en contacto con Ud. lo antes posible. <br><br>
 						</p>
-						<form action="" id="contact_form">
+						<div id="contact_form">
 							<div class="form-group">
 								<input type="text" id="nameInput" name="nameInput" placeholder="Nombre"><br><br>
 								<input type="email" id="emailInput" name="emailInput" aria-describedby="emailHelp" placeholder="Correo"><br><br>
 								<input type="text" id="phoneInput" name="phoneInput" placeholder="Tel&eacute;fono"><br><br>
-								<textarea id="descriptionInput" id="descriptionInput" placeholder="Descripci&oacute;n de su caso" rows="7"></textarea><br><br>
-								<button type="submit" id="btnSubmitForm">ENVIAR CONSULTA</button>
+								<textarea id="descriptionInput" name="descriptionInput" placeholder="Descripci&oacute;n de su caso" rows="5"></textarea><br><br>
+								<button id="btnSubmitForm">ENVIAR CONSULTA</button>
 							</div>
-							<div id="result"></div>
-						</form>
+							<div id="result"></div><br>
+						</div>
 					</div>
 				</div>
 			</section>

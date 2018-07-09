@@ -30,7 +30,7 @@ if($_POST)
 	$user_Message     = filter_var($_POST["descriptionInput"], FILTER_SANITIZE_STRING);
 	
 	//additional php validation
-	if(strlen($user_Name)<4) // If length is less than 4 it will throw an HTTP error.
+	if(strlen($user_Name)<3) // If length is less than 4 it will throw an HTTP error.
 	{
 		$output = json_encode(array('type'=>'error', 'text' => 'Nombre corto o vacío'));
 		die($output);
@@ -58,7 +58,7 @@ if($_POST)
 		$output = json_encode(array('type'=>'error', 'text' => 'No se pudo enviar el mensaje.'));
 		die($output);
 	}else{
-		$output = json_encode(array('type'=>'message', 'text' => 'Hola '.$user_Name .' Gracias por enviar su mensaje.'));
+		$output = json_encode(array('type'=>'message', 'text' => 'Mensaje Enviado, nos pondremos en contacto con usted.'));
 		die($output);
 	}
 }

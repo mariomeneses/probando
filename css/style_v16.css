@@ -115,7 +115,6 @@ header{
 
 .fixed-top{
   background: #000000;
-  padding-bottom: 10px;
 }
 
 #botonMenuMobile{
@@ -359,6 +358,19 @@ textarea {
   padding: 3%;
   border-style: none;
   width: 40%;
+}
+
+.success{
+  /* border: 1px solid #B9ECCE; */
+  /* border-radius: 5px; */
+  color: #26607a;
+  font-family: Assistant-Light;
+}
+
+.error{
+  color: #26607a;
+  text-align: center;
+  font-family: Assistant-Light;
 }
 
 #footer{
