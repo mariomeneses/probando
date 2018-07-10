@@ -86,6 +86,10 @@ header{
   margin: 0 auto;
 }
 
+.pruebaDisplayNone{
+  display: none;
+}
+
 #myNavbar{
   color: #686969 !important;
   font-family: Assistant-Light;
@@ -93,7 +97,7 @@ header{
 }
 
 #linkMenu{
-  color:#686969 ;
+  color:#ffffff ;
 }
 
 #menuSeparation{
@@ -124,9 +128,17 @@ button:focus {
 }
 
 
-
-.fixed-top{
+#bgBlack{
   background: #000000;
+}
+
+#bgTransparent{
+  background-color: transparent;
+}
+
+.navbar-expand-md.scrolled{
+   background-color: #000000 !important;
+  transition: background-color 200ms linear; 
 }
 
 #botonMenuMobile{
@@ -473,7 +485,10 @@ textarea {
   #hrHover, #contHover, #startHover, #enterpriseHover{
     display:none !important;
   }
-
+  
+  .pruebaDisplayNone{
+    display: flex !important;
+  }
 
 }
 
@@ -484,7 +499,8 @@ textarea {
   }
 
   #navbar{
-    display:flex;
+    display:flex !important;
+    font-family: Assistant-Light;
   }
 
 }

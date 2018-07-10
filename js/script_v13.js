@@ -1,4 +1,6 @@
 $(document).ready(function(){
+
+
   $('a[href^="#"]').on('click',function (e) {
     e.preventDefault();
 
@@ -58,6 +60,13 @@ $(document).ready(function(){
   });
 
 
+});
+
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".navbar-expand-md");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
 });
 
 

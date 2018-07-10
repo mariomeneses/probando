@@ -11,7 +11,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Contador</title>
 	<script src="js/jquery-3.3.1.min.js"></script>
-	<script src="js/script_v11.js"></script>
+	<script src="js/script_v13.js"></script>
 	<script src="js/bootstrap.bundle.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/modernizr-custom_3.js"></script>
@@ -20,7 +20,7 @@
 	<link href="css/bootstrap-grid.min.css" rel="stylesheet" type="text/css" />
 	<link href="css/bootstrap-reboot.min.css" rel="stylesheet" type="text/css" />
 	<link href="css/reset.css" rel="stylesheet" type="text/css" />
-	<link href="css/style_v22.css" rel="stylesheet" type="text/css" />
+	<link href="css/style_v24.css" rel="stylesheet" type="text/css" />
 
 	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="img/favicon.png" type="image/png">
@@ -33,7 +33,8 @@
 	</head>
 	<body>	
 		<div class="fixed-top">
-			<div class="d-flex justify-content-end container" id="officeInfo">
+			<div id="bgBlack">
+				<div class="d-flex justify-content-end container" id="officeInfo">
 					<img src="img/reloj.png" alt="Reloj Rexcont">
 					<div class="mr-auto p-2">Lunes a Viernes 08:30 &#8226; 18:30</div>
 					<img src="img/mail.png" alt="Mail Rexcont">
@@ -41,28 +42,9 @@
 					<img src="img/telefono.png" alt="telefono_rexcont">
 					<div class="p-2"><a href="tel:2 2605 1244">2 2605 1244</a> / <a href="tel:2 2605 1245">2 2605 1245</a></div>
 				</div>
-				<header class="">
-					<nav id="myNavbar" class="navbar navbar-expand-md ">
-						<div class="container">
-							<img src="img/rexcont_logo.png" id="logoImg" alt="Logo Rexcont">
-							<div id="topMenu" class="navbar-collapse w-100 order-3 dual-collapse2">
-								<ul class="navbar-nav ml-auto">
-									<li class="nav-item" id="menuSeparation">
-										<a id="linkMenu" href="#home" class="nav-link">Inicio</a>
-									</li>
-									<li class="nav-item" id="menuSeparation">
-										<a id="linkMenu" href="#about" class="nav-link" >Quienes somos</a>
-									</li>
-									<li class="nav-item" id="menuSeparation">
-										<a id="linkMenu" href="#about" class="nav-link">Servicios</a>
-									</li>
-									<li class="nav-item" id="menuSeparation">
-										<a id="linkMenu" href="#contactForm" class="nav-link">Contacto</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</nav>
+			</div>
+				<header class="bgTransparent">
+					<div id="bgBlack" class="pruebaDisplayNone">
 					<div class="container"><br>
 						<nav class="navbar" id="navbar">
 							<img src="img/rexcont_logo.png" id="logoImg" alt="Logo Rexcont">
@@ -88,6 +70,28 @@
 							</div>
 						</nav>
 					</div>
+					</div>
+					<nav id="myNavbar" class="navbar navbar-expand-md ">
+						<div class="container">
+							<img src="img/rexcont_logo.png" id="logoImg" alt="Logo Rexcont">
+							<div id="topMenu" class="navbar-collapse w-100 order-3 dual-collapse2">
+								<ul class="navbar-nav ml-auto">
+									<li class="nav-item" id="menuSeparation">
+										<a id="linkMenu" href="#home" class="nav-link">Inicio</a>
+									</li>
+									<li class="nav-item" id="menuSeparation">
+										<a id="linkMenu" href="#about" class="nav-link" >Quienes somos</a>
+									</li>
+									<li class="nav-item" id="menuSeparation">
+										<a id="linkMenu" href="#about" class="nav-link">Servicios</a>
+									</li>
+									<li class="nav-item" id="menuSeparation">
+										<a id="linkMenu" href="#contactForm" class="nav-link">Contacto</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</nav>
 				</header>
 		</div>
 		<div id="home">
