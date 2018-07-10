@@ -202,7 +202,7 @@ button:focus {
 }
 
 .services{
-  background-color: #000000;
+  background-color: #1B1D20;
   /* margin: 10%; */
   font-size: 0.9rem;
   font-family: Assistant-SemiBold;
@@ -214,7 +214,7 @@ button:focus {
 }
 
 .servicesDetail{
-  background-color: #000000;
+  background-color: #1B1D20;
   margin: 10%;
   font-size: 0.8rem;
   font-family: Assistant-Light;
@@ -228,7 +228,7 @@ button:focus {
 }
 
 .servicesDetailTwo{
-  background-color: #000000;
+  background-color: #1B1D20;
   margin: 15%;
   font-size: 0.8rem;
   font-family: Assistant-Light;
@@ -245,11 +245,6 @@ button:focus {
   float: right;
   margin-top: 8%;
   text-align: left;
-}
-
-#servicwesHover{
-  background-color: #000000;
-  font-family: Assistant-Light;
 }
 
 #enterpriseHover{
