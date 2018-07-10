@@ -20,13 +20,16 @@
 	<link href="css/bootstrap-grid.min.css" rel="stylesheet" type="text/css" />
 	<link href="css/bootstrap-reboot.min.css" rel="stylesheet" type="text/css" />
 	<link href="css/reset.css" rel="stylesheet" type="text/css" />
-	<link href="css/style_v18.css" rel="stylesheet" type="text/css" />
+	<link href="css/style_v22.css" rel="stylesheet" type="text/css" />
+
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="img/favicon.png" type="image/png">
 
 	<!--[if lt IE 9 ]>
 		<script type="text/javascript" src="js/html5shiv.min.js"></script>
 		<script type="text/javascript" src="js/html5shiv-printshiv.min.js"></script>
 		<script type="text/javascript" src="js/respond.min.js"></script>
-		<![endif]-->
+	<![endif]-->
 	</head>
 	<body>	
 		<div class="fixed-top">
@@ -44,16 +47,16 @@
 							<img src="img/rexcont_logo.png" id="logoImg" alt="Logo Rexcont">
 							<div id="topMenu" class="navbar-collapse w-100 order-3 dual-collapse2">
 								<ul class="navbar-nav ml-auto">
-									<li class="nav-item">
+									<li class="nav-item" id="menuSeparation">
 										<a id="linkMenu" href="#home" class="nav-link">Inicio</a>
 									</li>
-									<li class="nav-item">
+									<li class="nav-item" id="menuSeparation">
 										<a id="linkMenu" href="#about" class="nav-link" >Quienes somos</a>
 									</li>
-									<li class="nav-item">
+									<li class="nav-item" id="menuSeparation">
 										<a id="linkMenu" href="#about" class="nav-link">Servicios</a>
 									</li>
-									<li class="nav-item">
+									<li class="nav-item" id="menuSeparation">
 										<a id="linkMenu" href="#contactForm" class="nav-link">Contacto</a>
 									</li>
 								</ul>
@@ -118,14 +121,13 @@
 							<div id="servicesStyle">
 								<!-- hover servicios -->
 								<div id="servicesHover">
-									• Confecci&oacute;n Contratos de Trabajo.<br>
-									• Confecci&oacute;n Finiquitos.<br>
-									• Confecci&oacute;n Liquidaciones de Sueldo.<br>
-									• Confecci&oacute;n y cargas Leyes Sociales Previred.<br>
+									• Contratos de Trabajo.<br>
+									• Finiquitos.<br>
+									• Liquidaciones de Sueldo.<br>
+									• Cargas Leyes Sociales Previred.<br>
 									• Contratos especiales y ofertas de trabajo a extranjeros.<br>
-									• Orientaci&oacute;n para tr&aacute;mites de extranjer&iacute; e.<br>
-									Instituciones Previsionales.<br>
-									• Asesor&iacute;s Telef&oacute;nicas RR HH.<br>
+									• Orientaci&oacute;n para tr&aacute;mites de extranjer&iacute;a e Instituciones Previsionales.<br>
+									• Asesor&iacute;as Telef&oacute;nicas RR HH.<br>
 								</div>
 							</div>
 						</div>
@@ -148,8 +150,8 @@
 									• Renta Atribuida (Art. 14 A)*.<br>
 									• Semi Integrado (Art. 14 B)*.<br>
 									• Calculo, cargas y  pago de impuestos online.<br>
-									• Confecci&oacute;n contabilidad de acuerdo a normas vigentes.<br>
-									• Confecci&oacute;n Balance y Pre-Balance.<br>
+									• Contabilidad de acuerdo a normas vigentes.<br>
+									• Balance y Pre-Balance.<br>
 									• Calculo y carga de impuesto a la renta online.<br>
 									• Impuestos diferidos.<br>
 									• Asesor&iacute;as Tributarias.<br><br>
@@ -210,7 +212,7 @@
 				<div id="aboutLine"></div>
 				<div id="aboutText">
 					<p>
-						<b>Rexcont Adviser</b> es una empresa orientada hacia las Pyme (Peque&ntilde;a y Mediana Empresa) con la sola <br>
+						<b id="aboutStrong"><strong>Rexcont Adviser</strong></b> es una empresa orientada hacia las Pyme (Peque&ntilde;a y Mediana Empresa) con la sola <br>
 						finalidad de otorgar la mejor atencion a sus clientes, en un tiempo razonable y de manera confiable. <br><br>
 					</p>
 					<p>
@@ -226,14 +228,14 @@
 							Asesor&aacute;ndole en los campos en los cuales somos expertos y que son inherentes a nuestra profesi&oacute;n.<br><br>
 						</p>-->
 						<p>
-							Le invitamos a ver en nuestra p&aacute;gina algunos de los muchos servicios que prestamos. <br><br>
+							Le invitamos a ver en nuestra p&aacute;gina algunos de los muchos servicios que prestamos. <br><br><br>
 						</p>
 						<p>
 							Saludos,
 						</p>
-						<p>
+						<p><strong id="aboutStrong">
 							Gerencia <br>
-							Rexcont Adviser.
+							Rexcont Adviser.</strong>
 						</p>
 					</div>
 				</div><br>
@@ -242,7 +244,7 @@
 			<section id="contactForm"><br><br><br><br>
 				<div id="formCenter" class="container">
 					<div id="formAlign">
-						<p id="formConnect">
+						<p id="formConnect"><br>
 							Cont&aacute;ctese con nosotros
 						</p>
 						<p id="formEvaluate">
