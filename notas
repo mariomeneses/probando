@@ -25,3 +25,10 @@ https://stackoverflow.com/questions/15649244/responsive-font-size
 https://css-tricks.com/viewport-sized-typography/
 https://stackoverflow.com/questions/15649244/responsive-font-size
 https://www.w3schools.com/howto/howto_css_responsive_text.asp
+
+
+DIVE EFECTO
+https://stackoverflow.com/questions/5210033/using-only-css-show-div-on-hover-over-a
+
+
+						<div id="hrService"  onmouseover="document.getElementById('hrHover').style.display = 'block';" onmouseout="document.getElementById('hrHover').style.display = 'none';" class="col services">

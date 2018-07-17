@@ -20,7 +20,7 @@
 	<link href="css/bootstrap-grid.min.css" rel="stylesheet" type="text/css" />
 	<link href="css/bootstrap-reboot.min.css" rel="stylesheet" type="text/css" />
 	<link href="css/reset.css" rel="stylesheet" type="text/css" />
-	<link href="css/style_v24.css" rel="stylesheet" type="text/css" />
+	<link href="css/style_v28.css" rel="stylesheet" type="text/css" />
 
 	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="img/favicon.png" type="image/png">
@@ -29,7 +29,7 @@
 		<script type="text/javascript" src="js/html5shiv.min.js"></script>
 		<script type="text/javascript" src="js/html5shiv-printshiv.min.js"></script>
 		<script type="text/javascript" src="js/respond.min.js"></script>
-	<![endif]-->
+		<![endif]-->
 	</head>
 	<body>	
 		<div class="fixed-top">
@@ -43,8 +43,8 @@
 					<div class="p-2"><a href="tel:2 2605 1244">2 2605 1244</a> / <a href="tel:2 2605 1245">2 2605 1245</a></div>
 				</div>
 			</div>
-				<header class="bgTransparent">
-					<div id="bgBlack" class="pruebaDisplayNone">
+			<header class="bgTransparent">
+				<div id="bgBlack" class="pruebaDisplayNone">
 					<div class="container"><br>
 						<nav class="navbar" id="navbar">
 							<img src="img/rexcont_logo.png" id="logoImg" alt="Logo Rexcont">
@@ -70,29 +70,29 @@
 							</div>
 						</nav>
 					</div>
-					</div>
-					<nav id="myNavbar" class="navbar navbar-expand-md ">
-						<div class="container">
-							<img src="img/rexcont_logo.png" id="logoImg" alt="Logo Rexcont">
-							<div id="topMenu" class="navbar-collapse w-100 order-3 dual-collapse2">
-								<ul class="navbar-nav ml-auto">
-									<li class="nav-item" id="menuSeparation">
-										<a id="linkMenu" href="#home" class="nav-link">Inicio</a>
-									</li>
-									<li class="nav-item" id="menuSeparation">
-										<a id="linkMenu" href="#about" class="nav-link" >Quienes somos</a>
-									</li>
-									<li class="nav-item" id="menuSeparation">
-										<a id="linkMenu" href="#about" class="nav-link">Servicios</a>
-									</li>
-									<li class="nav-item" id="menuSeparation">
-										<a id="linkMenu" href="#contactForm" class="nav-link">Contacto</a>
-									</li>
-								</ul>
-							</div>
+				</div>
+				<nav id="myNavbar" class="navbar navbar-expand-md ">
+					<div class="container">
+						<img src="img/rexcont_logo.png" id="logoImg" alt="Logo Rexcont">
+						<div id="topMenu" class="navbar-collapse w-100 order-3 dual-collapse2">
+							<ul class="navbar-nav ml-auto">
+								<li class="nav-item" id="menuSeparation">
+									<a id="linkMenu" href="#home" class="nav-link">Inicio</a>
+								</li>
+								<li class="nav-item" id="menuSeparation">
+									<a id="linkMenu" href="#about" class="nav-link" >Quienes somos</a>
+								</li>
+								<li class="nav-item" id="menuSeparation">
+									<a id="linkMenu" href="#about" class="nav-link">Servicios</a>
+								</li>
+								<li class="nav-item" id="menuSeparation">
+									<a id="linkMenu" href="#contactForm" class="nav-link">Contacto</a>
+								</li>
+							</ul>
 						</div>
-					</nav>
-				</header>
+					</div>
+				</nav>
+			</header>
 		</div>
 		<div id="home">
 			<div class="container alignCenter" id="homeText">
@@ -159,7 +159,7 @@
 									• Calculo y carga de impuesto a la renta online.<br>
 									• Impuestos diferidos.<br>
 									• Asesor&iacute;as Tributarias.<br><br>
-									*Nuevos reg&iacute;menes tributarios por reforma tributaria vigente.
+									<p id="smallLetter">*Nuevos reg&iacute;menes tributarios por reforma tributaria vigente.</p>
 								</div>
 							</div>
 						</div>
@@ -167,7 +167,7 @@
 					<div class="col services">
 						<div id="startService" class="services">
 							<img src="img/SERVICIOS_DE_PUESTA_EN_MARCHA.png" alt="Servicios de puesta en marcha">
-							<div id="servicesStyle">
+							<div id="servicesStyleTwo">
 								SERVICIOS <br>
 								DE PUESTA <br>
 								EN MARCHA
@@ -189,44 +189,47 @@
 					</div>
 					<div class="col services">
 						<div id="enterpriseService" class="services">
-							<img src="img/REINICIO_O_TERMINO_DE_EMPRESAS.png" alt="Reinicio o t&eacute;rmino de empresas">
-							<div id="servicesStyle">
-								REINICIO <br>
-								O T&Eacute;RMINO<br>
-								DE EMPRESAS
+							<div id="servicesStyleThreeCont">
+								<img src="img/REINICIO_O_TERMINO_DE_EMPRESAS.png" alt="Reinicio o t&eacute;rmino de empresas">
+								<div id="servicesStyleThree">
+									REINICIO <br>
+									O T&Eacute;RMINO<br>
+									DE EMPRESAS
+								</div>
 							</div>
 						</div>
 						<div id="enterpriseHover" class="col servicesDetailTwo">
-							<div id="servicesStyle">
+							<div id="servicesStyle" class="alignTextEnterpriseHover">
 								<!-- hover servicios -->
 								<div id="servicesHover">
 									• Evaluaci&oacute;n Financiera Empresa.<br>
 									• Evaluaci&oacute;n de recursos humanos.<br>
 									• Evaluaci&oacute;n de costos.<br>
 									• Reestructuraci&oacute;n departamentos.<br>
-									• T&eacute;rminos de giro<br><br>
-									*Consulte por servicios especiales en regiones.
+									• T&eacute;rminos de giro.<br><br>
+									<p id="smallLetter">*Consulte por servicios especiales en regiones.</p>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<p id="aboutTitleOne">QUIENES</p>
-				<p id="aboutTitleTwo">SOMOS</p>
-				<div id="aboutLine"></div>
-				<div id="aboutText">
-					<p>
-						<b id="aboutStrong"><strong>Rexcont Adviser</strong></b> es una empresa orientada hacia las Pyme (Peque&ntilde;a y Mediana Empresa) con la sola <br>
-						finalidad de otorgar la mejor atencion a sus clientes, en un tiempo razonable y de manera confiable. <br><br>
-					</p>
-					<p>
-						Nosotros estamos dispuestos a asesorarte en lo que usted requiera o necesite; <br>
-						mas aquellas sugerencias que podamos hacerle a su proceso administrativo. <br><br>
-					</p>
-					<p>
-						Es importante recalcar que hay procesos b&aacute;sico o pilares fundamentales dentro de la administraci&oacute;n <br>
-						de una Empresa o Negocio, sobre todo si se desea tomar las mejores decisiones para hacerla crecer. <br><br>
-					</p>
+				<div id="aboutCont">
+					<p id="aboutTitleOne">QUIENES</p>
+					<p id="aboutTitleTwo">SOMOS</p>
+					<div id="aboutLine"></div>
+					<div id="aboutText">
+						<p>
+							<b id="aboutStrong"><strong>Rexcont Adviser</strong></b> es una empresa orientada hacia las Pyme (Peque&ntilde;a y Mediana Empresa) con la sola <br>
+							finalidad de otorgar la mejor atencion a sus clientes, en un tiempo razonable y de manera confiable. <br><br>
+						</p>
+						<p>
+							Nosotros estamos dispuestos a asesorarte en lo que usted requiera o necesite; <br>
+							mas aquellas sugerencias que podamos hacerle a su proceso administrativo. <br><br>
+						</p>
+						<p>
+							Es importante recalcar que hay procesos b&aacute;sico o pilares fundamentales dentro de la administraci&oacute;n <br>
+							de una Empresa o Negocio, sobre todo si se desea tomar las mejores decisiones para hacerla crecer. <br><br>
+						</p>
 					<!--	<p>
 							Para ello es que estamos aqu&iacute;, para estrechar lazos y trabajar de manera mancomunada. <br>
 							Asesor&aacute;ndole en los campos en los cuales somos expertos y que son inherentes a nuestra profesi&oacute;n.<br><br>
@@ -242,65 +245,66 @@
 							Rexcont Adviser.</strong>
 						</p>
 					</div>
-				</div><br>
-			</section>
-			<div id="aboutLineBot" class="container"></div>
-			<section id="contactForm"><br><br><br><br>
-				<div id="formCenter" class="container">
-					<div id="formAlign">
-						<p id="formConnect"><br>
-							Cont&aacute;ctese con nosotros
-						</p>
-						<p id="formEvaluate">
-							Evaluamos su caso
-						</p>
-						<p id="formText">
-							Ll&aacute;menos a los tel&eacute;fonos 2 2605 1244 y 2 2605 1245,<br>
-							o complete el siguiente formulario y nos pondremos <br>
-							en contacto con Ud. lo antes posible. <br><br>
-						</p>
-						<div id="contact_form">
-							<div class="form-group">
-								<input type="text" id="nameInput" name="nameInput" placeholder="Nombre"><br><br>
-								<input type="email" id="emailInput" name="emailInput" aria-describedby="emailHelp" placeholder="Correo"><br><br>
-								<input type="text" id="phoneInput" name="phoneInput" placeholder="Tel&eacute;fono"><br><br>
-								<textarea id="descriptionInput" name="descriptionInput" placeholder="Descripci&oacute;n de su caso" rows="5"></textarea><br><br>
-								<button id="btnSubmitForm">ENVIAR CONSULTA</button>
-							</div>
-							<div id="result"></div><br>
+				</div>
+			</div><br>
+		</section>
+		<div id="aboutLineBot" class="container"></div>
+		<section id="contactForm"><br><br><br><br>
+			<div id="formCenter" class="container">
+				<div id="formAlign">
+					<p id="formConnect"><br>
+						Cont&aacute;ctese con nosotros
+					</p>
+					<p id="formEvaluate">
+						Evaluamos su caso
+					</p>
+					<p id="formText">
+						Ll&aacute;menos a los tel&eacute;fonos 2 2605 1244 y 2 2605 1245,<br>
+						o complete el siguiente formulario y nos pondremos <br>
+						en contacto con Ud. lo antes posible. <br><br>
+					</p>
+					<div id="contact_form">
+						<div class="form-group">
+							<input type="text" id="nameInput" name="nameInput" placeholder="Nombre"><br><br>
+							<input type="email" id="emailInput" name="emailInput" aria-describedby="emailHelp" placeholder="Correo"><br><br>
+							<input type="text" id="phoneInput" name="phoneInput" placeholder="Tel&eacute;fono"><br><br>
+							<textarea id="descriptionInput" name="descriptionInput" placeholder="Descripci&oacute;n de su caso" rows="5"></textarea><br><br>
+							<button id="btnSubmitForm">ENVIAR CONSULTA</button>
 						</div>
+						<div id="result"></div><br>
 					</div>
 				</div>
-			</section>
-			<footer id="footer">
-				<div class="container">
-					<div class="row">
-						<div class="col" id="logoFoot">
-							<img src="img/rexcont_logo.png" id="footerLogo" alt="Logo Rexcont">
-						</div>
-						<div class="col fixMenuBottom" id="footerMenu">
-							<nav>
-								<ul class="ulFooterMenu">
-									<li><a href="#home" id="homeFooter" class="footerMenuColor">Inicio</a><div id="footerNavLineHome"></div><br></li><br>
-									<li><a href="#about" id="aboutFooter" class="footerMenuColor">Servicios</a><div id="footerNavLineAbout"></div><br></li><br>
-									<li><a href="#about" id="usFooter" class="footerMenuColor" >Nosotros</a><div id="footerNavLineUs"></div><br></li><br>
-									<li><a href="#contactForm" id="contactFooter" class="footerMenuColor">Contacto</a><div id="footerNavLineContact"></div></li>
-								</ul>
-							</nav>							
-						</div>
-						<div class="col" id="footerMenu">
-							Oficinas<br><br>
-							Ahumada #131, Of. 915, Santiago, Chile.<br><br>
-							<a class="footerOfficeColor" href="mailto:contacto@rexcont.cl">Correo: contacto@rexcont.cl</a><br><br>
-							Tel&eacute;fono: <a class="footerOfficeColor" href="tel:2 2605 1244">2 2605 1244</a> / <a href="tel:2 2605 1245" class="footerOfficeColor">2 2605 1245</a>
-						</div>
-						<div class="col" id="hiddenDivFooter"></div>
+			</div>
+		</section>
+		<footer id="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col" id="logoFoot">
+						<img src="img/rexcont_logo.png" id="footerLogo" alt="Logo Rexcont">
 					</div>
-					<div>
-						<div id="footerLine"></div>
-						<a href="https://www.facebook.com" target="_blank"><img src="img/facebook.png" id="fbIcon" alt="facebook Rexcont"></a>&emsp;<a href="mailto:contacto@rexcont.cl"><img src="img/mail.png" alt="mail Rexcont"></a> <p id="derechos">2018 Rexcont Adviser. Todos los derechos reservados.</p>
+					<div class="col fixMenuBottom" id="footerMenu">
+						<nav>
+							<ul class="ulFooterMenu">
+								<li><a href="#home" id="homeFooter" class="footerMenuColor">Inicio</a><div id="footerNavLineHome"></div><br></li><br>
+								<li><a href="#about" id="aboutFooter" class="footerMenuColor">Servicios</a><div id="footerNavLineAbout"></div><br></li><br>
+								<li><a href="#about" id="usFooter" class="footerMenuColor" >Nosotros</a><div id="footerNavLineUs"></div><br></li><br>
+								<li><a href="#contactForm" id="contactFooter" class="footerMenuColor">Contacto</a><div id="footerNavLineContact"></div></li>
+							</ul>
+						</nav>							
 					</div>
+					<div class="col" id="footerMenu">
+						Oficinas<br><br>
+						Ahumada #131, Of. 915, Santiago, Chile.<br><br>
+						<a class="footerOfficeColor" href="mailto:contacto@rexcont.cl">Correo: contacto@rexcont.cl</a><br><br>
+						Tel&eacute;fono: <a class="footerOfficeColor" href="tel:2 2605 1244">2 2605 1244</a> / <a href="tel:2 2605 1245" class="footerOfficeColor">2 2605 1245</a>
+					</div>
+					<div class="col" id="hiddenDivFooter"></div>
 				</div>
-			</footer>
-		</body>
-		</html>
+				<div>
+					<div id="footerLine"></div>
+					<a href="https://www.facebook.com" target="_blank"><img src="img/facebook.png" id="fbIcon" alt="facebook Rexcont"></a>&emsp;<a href="mailto:contacto@rexcont.cl"><img src="img/mail.png" alt="mail Rexcont"></a> <p id="derechos">2018 Rexcont Adviser. Todos los derechos reservados.</p>
+				</div>
+			</div>
+		</footer>
+	</body>
+	</html>
