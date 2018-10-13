@@ -628,12 +628,16 @@ textarea {
 
 }
 
-
-@media (max-width:539px) and (min-width:382px) {
+@media screen and (max-width:539px) and (min-width:382px) {
   .fixMenuBottom {
     margin-left: 15%;
   }
-  }​
+}
+
+@media screen and (min-width: 1368px) and (max-width:1370px)
+#formCenter {
+    margin-top: 0px;
+}
 
   /* icono menu*/
   .navbar-light .navbar-toggler-icon {
