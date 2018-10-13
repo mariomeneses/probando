@@ -515,7 +515,7 @@ textarea {
 
 }
 
-@media screen and (min-width: 1366px) {
+@media screen and (min-width: 1370px) {
 
   #aboutCont{
     margin-top: 6%;
@@ -634,7 +634,7 @@ textarea {
   }
 }
 
-@media screen and (min-width: 1368px) and (max-width:1370px)
+@media screen and (min-width: 1369px) and (max-width:1370px)
 #formCenter {
     margin-top: 0px;
 }
