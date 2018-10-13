@@ -9,7 +9,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Contador</title>
+	<title>RexCont Adviser</title>
 	<script src="js/jquery-3.3.1.min.js"></script>
 	<script src="js/script_v13.js"></script>
 	<script src="js/bootstrap.bundle.min.js"></script>
@@ -36,7 +36,7 @@
 			<div id="bgBlack">
 				<div class="d-flex justify-content-end container" id="officeInfo">
 					<img src="img/reloj.png" alt="Reloj Rexcont">
-					<div class="mr-auto p-2">Lunes a Viernes 08:30 &#8226; 18:30</div>
+					<div class="mr-auto p-2">Lunes a Viernes 09:00 &#8226; 18:30</div>
 					<img src="img/mail.png" alt="Mail Rexcont">
 					<div class="p-2"><a href="mailto:contacto@rexcont.cl">contacto@rexcont.cl</a></div>
 					<img src="img/telefono.png" alt="telefono_rexcont">
@@ -220,14 +220,14 @@
 					<div id="aboutText">
 						<p>
 							<b id="aboutStrong"><strong>Rexcont Adviser</strong></b> es una empresa orientada hacia las Pyme (Peque&ntilde;a y Mediana Empresa) con la sola <br>
-							finalidad de otorgar la mejor atencion a sus clientes, en un tiempo razonable y de manera confiable. <br><br>
+							finalidad de otorgar la mejor atenci&oacute;n a sus clientes, en un tiempo razonable y de manera confiable. <br><br>
 						</p>
 						<p>
-							Nosotros estamos dispuestos a asesorarte en lo que usted requiera o necesite; <br>
+							Nosotros estamos dispuestos a asesorarle en lo que usted requiera o necesite; <br>
 							mas aquellas sugerencias que podamos hacerle a su proceso administrativo. <br><br>
 						</p>
 						<p>
-							Es importante recalcar que hay procesos b&aacute;sico o pilares fundamentales dentro de la administraci&oacute;n <br>
+							Es importante recalcar que hay procesos b&aacute;sicos o pilares fundamentales dentro de la administraci&oacute;n <br>
 							de una Empresa o Negocio, sobre todo si se desea tomar las mejores decisiones para hacerla crecer. <br><br>
 						</p>
 					<!--	<p>
