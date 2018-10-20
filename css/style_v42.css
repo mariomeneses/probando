@@ -675,51 +675,6 @@ textarea {
 }
 
 
-@media screen and (max-width: 539px) {
-
-  #officeInfo{
-    display:none !important;
-  }
-  #logoImg {
-    width: 40%;
-  }
-
-  #ulFooterMenu{
-    font-size: 13px;
-    margin-left: 46px;
-  }
-
-  #logoFoot{
-    margin-left: 21%;
-    margin-bottom: 8%;
-  }
-  #footerLogo{
-    width: 15.12rem;
-  }
-
-  #hiddenDivFooter{
-    display:none;
-  }
-
-  #footerMenu{
-    font-size: 13px;
-  }
-
-}
-
-@media screen and (max-width: 414px) {
-
-  #footerLogo {
-    width: 12.12rem;
-  }
-
-  #ulFooterMenu{
-    margin-left: 34px;
-
-  }
-
-}
-
 @media screen and (max-width: 425px) {
 
   #hrHover, #contHover, #startHover, #enterpriseHover{
@@ -727,18 +682,6 @@ textarea {
   }
 }
 
-@media screen and (max-width: 320px) {
-
-  #footerLogo {
-    width: 12.12rem;
-  }
-
-  #logoFoot {
-    margin-left: 18%;
-    margin-bottom: 8%;
-  }
-
-}
 
 @media screen and (max-width:539px) and (min-width:382px) {
   .fixMenuBottom {
@@ -862,4 +805,118 @@ textarea {
 
 }
 
+@media screen and (max-width: 539px) {
 
+  #officeInfo{
+    display:none !important;
+  }
+  #logoImg {
+    width: 40%;
+  }
+
+  #ulFooterMenu{
+    font-size: 13px;
+    margin-left: 46px;
+  }
+
+  #logoFoot{
+    margin-left: 21%;
+    margin-bottom: 8%;
+  }
+  #footerLogo{
+    width: 15.12rem;
+  }
+
+  #hiddenDivFooter{
+    display:none;
+  }
+
+  #footerMenu{
+    font-size: 13px;
+  }
+
+}
+
+@media screen and (max-width: 414px) {
+
+  #footerLogo {
+    width: 12.12rem;
+  }
+
+  #ulFooterMenu{
+    margin-left: 34px;
+
+  }
+
+  .btnDetailServicesRecursos{
+    margin-top: 18%;
+  }
+
+  .btnDetailServices{
+    margin-top: 16%;
+  }
+  .btnDetailServicesPuestaEnMarcha{
+    margin-top: 31%;
+  }
+
+  .btnDetailServicesReinicio{
+    margin-top: 10%;
+    margin-bottom: 6%;
+  }
+}
+
+@media (max-width: 375px) {
+
+  .btnDetailServicesRecursos{
+    margin-top: 34%;
+  }
+
+  .btnDetailServicesPuestaEnMarcha{
+    margin-top: 49%;
+    padding: 11%;
+  }
+}
+
+@media (max-width: 360px) {
+
+  .btnDetailServicesRecursos{
+    margin-top: 34%;
+  }
+
+  .btnDetailServicesPuestaEnMarcha{
+    margin-top: 33%;
+  }
+
+}
+
+@media (max-width: 320px) {
+
+  #footerLogo {
+    width: 12.12rem;
+  }
+
+  #logoFoot {
+    margin-left: 18%;
+    margin-bottom: 8%;
+  }
+
+  .btnDetailServicesRecursos{
+    margin-top:20%;
+  }
+  
+  .btnDetailServicesReinicio{
+    padding: 11%;
+    float: inherit;
+  }
+
+  .btnDetailServicesPuestaEnMarcha{
+    margin-top: 14%;
+    padding: 10%;
+  }
+  .btnDetailServices{
+    margin-top: 20%;
+  }
+
+
+}
+/*FALTA 375 414 */
