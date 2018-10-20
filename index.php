@@ -336,13 +336,13 @@
 						<h4 class="modal-title" id="myModalLabel">ÁREA RECURSOS HUMANOS</h4>
 					</div>
 					<div class="modal-body">
-						<p>• Contratos de Trabajo.</p><br>
-						<p>• Finiquitos.</p><br>
-						<p>• Liquidaciones de Sueldo.</p><br>
-						<p>• Cargas Leyes Sociales Previred.</p><br>
-						<p>• Contratos especiales y ofertas de trabajo a extranjeros.</p><br>
-						<p>• Orientaci&oacute;n para tr&aacute;mites de extranjer&iacute;a e Instituciones Previsionales.</p><br>
-						<p>• Asesor&iacute;as Telef&oacute;nicas RR HH.</p><br>
+						<p> Contratos de Trabajo.</p><br>
+						<p> Finiquitos.</p><br>
+						<p> Liquidaciones de Sueldo.</p><br>
+						<p> Cargas Leyes Sociales Previred.</p><br>
+						<p> Contratos especiales y ofertas de trabajo a extranjeros.</p><br>
+						<p> Orientaci&oacute;n para tr&aacute;mites de extranjer&iacute;a e Instituciones Previsionales.</p><br>
+						<p> Asesor&iacute;as Telef&oacute;nicas RR HH.</p><br>
 					</div>
 					<div><button type="button" class="btnCerrarModal" data-dismiss="modal">Cerrar</button></div>
 					<div class="modal-footer">
@@ -359,16 +359,16 @@
 						<h4 class="modal-title" id="myModalLabel">&Aacute;REA CONTABLE Y TRIBUTARIA</h4>
 					</div>
 					<div class="modal-body">
-						<p>• Renta Presunta*.</p><br>
-						<p>• Tributaci&oacute;n Simplificada (Art&iacute;culo 14 ter Letra A)*.</p><br>
-						<p>• Renta Atribuida (Art. 14 A)*.</p><br>
-						<p>• Semi Integrado (Art. 14 B)*.</p><br>
-						<p>• Calculo, cargas y  pago de impuestos online.</p><br>
-						<p>• Contabilidad de acuerdo a normas vigentes.</p><br>
-						<p>• Balance y Pre-Balance.</p><br>
-						<p>• Calculo y carga de impuesto a la renta online.</p><br>
-						<p>• Impuestos diferidos.</p><br>
-						<p>• Asesor&iacute;as Tributarias.</p><br><br><br><br>
+						<p> Renta Presunta*.</p><br>
+						<p> Tributaci&oacute;n Simplificada (Art&iacute;culo 14 ter Letra A)*.</p><br>
+						<p> Renta Atribuida (Art. 14 A)*.</p><br>
+						<p> Semi Integrado (Art. 14 B)*.</p><br>
+						<p> Calculo, cargas y  pago de impuestos online.</p><br>
+						<p> Contabilidad de acuerdo a normas vigentes.</p><br>
+						<p> Balance y Pre-Balance.</p><br>
+						<p> Calculo y carga de impuesto a la renta online.</p><br>
+						<p> Impuestos diferidos.</p><br>
+						<p> Asesor&iacute;as Tributarias.</p><br><br><br><br>
 						<p id="smallLetter">*Nuevos reg&iacute;menes tributarios por reforma tributaria vigente.</p>
 					</div>
 					<div><button type="button" class="btnCerrarModal" data-dismiss="modal">Cerrar</button></div>
@@ -386,12 +386,12 @@
 						<h4 class="modal-title" id="myModalLabel">SERVICIOS DE PUESTA EN MARCHA</h4>
 					</div>
 					<div class="modal-body">
-						<p>• Confecci&oacute;n Escrituras Sociales empresas en un día.</p><br>
-						<p>• Iniciaci&oacute;n de Actividades.</p><br>
-						<p>• Evaluaci&oacute;n de personal.</p><br>
-						<p>• Configuraci&oacute;n e Implementaci&oacute;n de Factura Electr&oacute;nica SII o de mercado.</p><br>
-						<p>• Capacitaciones facturaci&oacute;n electr&oacute;nica.</p><br>
-						<p>• Otros servicios adicionales para la puesta en marcha.</p><br>
+						<p> Confecci&oacute;n Escrituras Sociales empresas en un día.</p><br>
+						<p> Iniciaci&oacute;n de Actividades.</p><br>
+						<p> Evaluaci&oacute;n de personal.</p><br>
+						<p> Configuraci&oacute;n e Implementaci&oacute;n de Factura Electr&oacute;nica SII o de mercado.</p><br>
+						<p> Capacitaciones facturaci&oacute;n electr&oacute;nica.</p><br>
+						<p> Otros servicios adicionales para la puesta en marcha.</p><br>
 					</div>
 					<div><button type="button" class="btnCerrarModal" data-dismiss="modal">Cerrar</button></div>
 					<div class="modal-footer">
@@ -408,11 +408,11 @@
 						<h4 class="modal-title" id="myModalLabel">REINICIO O T&Eacute;RMINO DE EMPRESAS</h4>
 					</div>
 					<div class="modal-body">
-						<p>• Evaluaci&oacute;n Financiera Empresa.</p><br>
-						<p>• Evaluaci&oacute;n de recursos humanos.</p><br>
-						<p>• Evaluaci&oacute;n de costos.</p><br>
-						<p>• Reestructuraci&oacute;n departamentos.</p><br>
-						<p>• T&eacute;rminos de giro.</p><br><br><br><br>
+						<p> Evaluaci&oacute;n Financiera Empresa.</p><br>
+						<p> Evaluaci&oacute;n de recursos humanos.</p><br>
+						<p> Evaluaci&oacute;n de costos.</p><br>
+						<p> Reestructuraci&oacute;n departamentos.</p><br>
+						<p> T&eacute;rminos de giro.</p><br><br><br><br>
 						<p id="smallLetter">*Consulte por servicios especiales en regiones.</p>
 					</div>
 					<div><button type="button" class="btnCerrarModal" data-dismiss="modal">Cerrar</button></div>
