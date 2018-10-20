@@ -20,7 +20,7 @@
 	<link href="css/bootstrap-grid.min.css" rel="stylesheet" type="text/css" />
 	<link href="css/bootstrap-reboot.min.css" rel="stylesheet" type="text/css" />
 	<link href="css/reset.css" rel="stylesheet" type="text/css" />
-	<link href="css/style_v33.css" rel="stylesheet" type="text/css" />
+	<link href="css/style_v40.css" rel="stylesheet" type="text/css" />
 
 	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="img/favicon.png" type="image/png">
@@ -114,11 +114,16 @@
 				<div class="row">
 					<div class="col services">
 						<div id="hrService" class="services">
-							<img src="img/AREA_RECURSOS_HUMANOS.png" alt="&Aacute;rea Recursos humanos">
-							<div id="servicesStyle">
-								&Aacute;REA <br>
-								RECURSOS <br>
-								HUMANOS
+							<div>
+								<img src="img/AREA_RECURSOS_HUMANOS.png" alt="&Aacute;rea Recursos humanos">
+								<div id="servicesStyle">
+									&Aacute;REA <br>
+									RECURSOS <br>
+									HUMANOS
+								</div>
+							</div>
+							<div>
+								<button class="btnDetailServicesRecursos" data-toggle="modal" data-target="#modalRecursosHumanos">Ver más</button>
 							</div>
 						</div>
 						<div id="hrHover" class="servicesDetail">
@@ -138,12 +143,17 @@
 					</div>
 					<div class="col services">
 						<div id="contService" class="services">
-							<img src="img/AREA_CONTABLE_Y_TRIBUTARIA.png" alt="&Aacute;rea Contable y tributaria">
-							<div id="servicesStyle">
-								&Aacute;REA <br>
-								CONTABLE Y <br>
-								TRIBUTARIA
+							<div>
+								<img src="img/AREA_CONTABLE_Y_TRIBUTARIA.png" alt="&Aacute;rea Contable y tributaria">
+								<div id="servicesStyle">
+									&Aacute;REA <br>
+									CONTABLE Y <br>
+									TRIBUTARIA
+								</div>
 							</div>
+							<div>
+								<button class="btnDetailServices" data-toggle="modal" data-target="#modalAreaContable">Ver más</button>
+							</div>	
 						</div>
 						<div id="contHover" class="servicesDetail">
 							<div id="servicesStyle">
@@ -164,14 +174,19 @@
 							</div>
 						</div>
 					</div>
-					<div class="col services">
+					<div class="col services"> 
 						<div id="startService" class="services">
-							<img src="img/SERVICIOS_DE_PUESTA_EN_MARCHA.png" alt="Servicios de puesta en marcha">
-							<div id="servicesStyleTwo">
-								SERVICIOS <br>
-								DE PUESTA <br>
-								EN MARCHA
+							<div>
+								<img src="img/SERVICIOS_DE_PUESTA_EN_MARCHA.png" alt="Servicios de puesta en marcha">
+								<div id="servicesStyleTwo">
+									SERVICIOS <br>
+									DE PUESTA <br>
+									EN MARCHA
+								</div>
 							</div>
+							<div>
+								<button class="btnDetailServicesPuestaEnMarcha" data-toggle="modal" data-target="#modalPuestaEnMarcha">Ver más</button>
+							</div>	
 						</div>
 						<div id="startHover" class="servicesDetailTwo">
 							<div id="servicesStyle">
@@ -190,11 +205,16 @@
 					<div class="col services">
 						<div id="enterpriseService" class="services">
 							<div id="servicesStyleThreeCont">
-								<img src="img/REINICIO_O_TERMINO_DE_EMPRESAS.png" alt="Reinicio o t&eacute;rmino de empresas">
-								<div id="servicesStyleThree">
-									REINICIO <br>
-									O T&Eacute;RMINO<br>
-									DE EMPRESAS
+								<div>
+									<img src="img/REINICIO_O_TERMINO_DE_EMPRESAS.png" alt="Reinicio o t&eacute;rmino de empresas">
+									<div id="servicesStyleThree">
+										REINICIO <br>
+										O T&Eacute;RMINO<br>
+										DE EMPRESAS
+									</div>
+								</div>
+								<div>
+									<button class="btnDetailServicesReinicio" data-toggle="modal" data-target="#modalReinicio">Ver más</button>
 								</div>
 							</div>
 						</div>
@@ -306,5 +326,99 @@
 				</div>
 			</div>
 		</footer>
+		<!-- Modal Fullscreen ÁREA RECURSOS HUMANOS -->
+		<div class="modal fade modal-fullscreen-xs-down" id="modalRecursosHumanos" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<!-- <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>-->
+						<h4 class="modal-title" id="myModalLabel">ÁREA RECURSOS HUMANOS</h4>
+					</div>
+					<div class="modal-body">
+						<p>• Contratos de Trabajo.</p><br>
+						<p>• Finiquitos.</p><br>
+						<p>• Liquidaciones de Sueldo.</p><br>
+						<p>• Cargas Leyes Sociales Previred.</p><br>
+						<p>• Contratos especiales y ofertas de trabajo a extranjeros.</p><br>
+						<p>• Orientaci&oacute;n para tr&aacute;mites de extranjer&iacute;a e Instituciones Previsionales.</p><br>
+						<p>• Asesor&iacute;as Telef&oacute;nicas RR HH.</p><br>
+					</div>
+					<div><button type="button" class="btnCerrarModal" data-dismiss="modal">Cerrar</button></div>
+					<div class="modal-footer">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Modal Fullscreen modalAreaContable -->
+		<div class="modal fade modal-fullscreen-xs-down" id="modalAreaContable" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<!-- <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>-->
+						<h4 class="modal-title" id="myModalLabel">&Aacute;REA CONTABLE Y TRIBUTARIA</h4>
+					</div>
+					<div class="modal-body">
+						<p>• Renta Presunta*.</p><br>
+						<p>• Tributaci&oacute;n Simplificada (Art&iacute;culo 14 ter Letra A)*.</p><br>
+						<p>• Renta Atribuida (Art. 14 A)*.</p><br>
+						<p>• Semi Integrado (Art. 14 B)*.</p><br>
+						<p>• Calculo, cargas y  pago de impuestos online.</p><br>
+						<p>• Contabilidad de acuerdo a normas vigentes.</p><br>
+						<p>• Balance y Pre-Balance.</p><br>
+						<p>• Calculo y carga de impuesto a la renta online.</p><br>
+						<p>• Impuestos diferidos.</p><br>
+						<p>• Asesor&iacute;as Tributarias.</p><br><br><br><br>
+						<p id="smallLetter">*Nuevos reg&iacute;menes tributarios por reforma tributaria vigente.</p>
+					</div>
+					<div><button type="button" class="btnCerrarModal" data-dismiss="modal">Cerrar</button></div>
+					<div class="modal-footer">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Modal Fullscreen SERVICIOS DE PUESTA EN MARCHA -->
+		<div class="modal fade modal-fullscreen-xs-down" id="modalPuestaEnMarcha" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<!-- <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>-->
+						<h4 class="modal-title" id="myModalLabel">SERVICIOS DE PUESTA EN MARCHA</h4>
+					</div>
+					<div class="modal-body">
+						<p>• Confecci&oacute;n Escrituras Sociales empresas en un día.</p><br>
+						<p>• Iniciaci&oacute;n de Actividades.</p><br>
+						<p>• Evaluaci&oacute;n de personal.</p><br>
+						<p>• Configuraci&oacute;n e Implementaci&oacute;n de Factura Electr&oacute;nica SII o de mercado.</p><br>
+						<p>• Capacitaciones facturaci&oacute;n electr&oacute;nica.</p><br>
+						<p>• Otros servicios adicionales para la puesta en marcha.</p><br>
+					</div>
+					<div><button type="button" class="btnCerrarModal" data-dismiss="modal">Cerrar</button></div>
+					<div class="modal-footer">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Modal Fullscreen REINICIO O TÉRMINO DE EMPRESAS-->
+		<div class="modal fade modal-fullscreen-xs-down" id="modalReinicio" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<!-- <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>-->
+						<h4 class="modal-title" id="myModalLabel">REINICIO O T&Eacute;RMINO DE EMPRESAS</h4>
+					</div>
+					<div class="modal-body">
+						<p>• Evaluaci&oacute;n Financiera Empresa.</p><br>
+						<p>• Evaluaci&oacute;n de recursos humanos.</p><br>
+						<p>• Evaluaci&oacute;n de costos.</p><br>
+						<p>• Reestructuraci&oacute;n departamentos.</p><br>
+						<p>• T&eacute;rminos de giro.</p><br><br><br><br>
+						<p id="smallLetter">*Consulte por servicios especiales en regiones.</p>
+					</div>
+					<div><button type="button" class="btnCerrarModal" data-dismiss="modal">Cerrar</button></div>
+					<div class="modal-footer">
+					</div>
+				</div>
+			</div>
+		</div>
 	</body>
-	</html>
+	</html>									

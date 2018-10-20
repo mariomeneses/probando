@@ -1,7 +1,7 @@
 <?php
 if($_POST)
 {
-	$to_Email   	= "mario.meneses.a@gmail.com"; //Replace with recipient email address
+	$to_Email   	= "contacto@rexcont.cl"; //Replace with recipient email address
 	$subject        = 'Tienes un e-mail de contacto desde Rexcont'; //Subject line for emails
 	
 	
