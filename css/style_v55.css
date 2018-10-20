@@ -78,7 +78,7 @@ section {
 #officeInfo{
   margin: 0 auto;
   align-items: center;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   font-family: Assistant-Light;
 }
 
@@ -479,6 +479,10 @@ textarea {
   display:none;
 }
 
+.imgWsp{
+  height: 17px;
+}
+
 #fbIcon{
   width: 0.6rem;
 }
@@ -526,6 +530,20 @@ textarea {
 
 }
 
+@media (max-width: 1441px) {
+
+  #rowServicios{
+    margin-top: 40px;
+  }
+
+  #aboutCont{
+    margin-top: 50px;
+  }
+  #formCenter{
+    margin-top: 100px;
+  }
+}
+
 @media screen and (min-width: 1370px) {
 
   #aboutCont{
@@ -536,6 +554,66 @@ textarea {
     margin-top: 6%;
   }
 }
+
+@media (max-width: 1366px) {
+  #formCenter{
+    margin-top: 0px;
+  }  
+}
+
+@media (max-width: 1280px) {
+  #rowServicios{
+    margin-top: 0px;
+  }
+  #servicesStyleThreeCont{
+    padding-right: 0px;
+  }
+}
+
+@media (max-width: 1024px) {
+  #rowServicios{
+    margin-top:100px;
+  }
+
+  #aboutCont{
+    margin-top:100px;
+  }
+
+  #aboutText{
+    margin-top: 64px;
+  }
+  
+  #formCenter{
+    margin-top: 360px;
+  }
+}
+
+@media (width: 800px){
+  #rowServicios{
+    margin-top: 100px;
+  }
+
+  #aboutText{
+    margin-top: 60px;
+  }
+
+  #formCenter{
+    margin-top: 285px !important;
+  }
+
+  #hrHover, #contHover, #enterpriseHover{
+    margin-top: 65px;
+  }
+  #startHover{
+    margin-top: 80px;
+  }
+  #enterpriseHover{
+    margin-top: 78px;
+  }
+}
+ 
+}
+
 
 @media screen and (min-width: 768px) and (max-width: 1024px){
 
@@ -552,6 +630,10 @@ textarea {
 
   #hrHover, #contHover, #startHover, #enterpriseHover{
     display:none !important;
+  }
+
+  #formCenter{
+    margin-top: 210px;
   }
   
   .pruebaDisplayNone{
@@ -836,6 +918,22 @@ textarea {
   .btnDetailServicesReinicio{
     padding: 9px;
   }
+  
+  #rowServicios{
+    padding-top: 30px;
+  }
+
+  #aboutCont{
+    margin-top: 50px;
+  }
+
+  #aboutText{
+    margin-top: 40px;
+  }
+
+  #formCenter{
+    margin-top: 200px;
+  }
 }
 
 @media screen and (max-width: 539px) {
@@ -904,13 +1002,32 @@ textarea {
   }
 
   .btnDetailServicesReinicio{
-    margin-top: 10%;
-    margin-bottom: 6%;
+    padding: 10px;
+    float: inherit;
+    margin-top: 18px;
+    margin-bottom: 10px;
   }
+
+  #formCenter{
+    margin-top: 0px;
+  }
+
+  #rowServicios {
+    margin-top: 0px;
+    padding-top:0px;
+  }
+  #servicesStyleThree{
+    margin-top: 13px;
+  }
+
 }
 
 @media (max-width: 384px) {
   
+  .btnDetailServicesReinicio{
+    margin-right: 35px;
+  }
+
   .btnDetailServicesRecursos{
     margin-top: 28px;
     padding: 8px;
@@ -919,9 +1036,17 @@ textarea {
   .btnDetailServicesPuestaEnMarcha{
     margin-top: 41px;
   }
+  #formCenter{
+    margin-top: 0px;
+  }
 }
 
 @media (max-width: 375px) {
+  
+  .btnDetailServicesReinicio{
+    margin-right: 8px;
+    margin-bottom: 13px;
+  }
 
   .btnDetailServicesRecursos{
     margin-top: 34%;
@@ -930,6 +1055,10 @@ textarea {
   .btnDetailServicesPuestaEnMarcha{
     margin-top: 49%;
     padding: 11%;
+  }
+
+  #formCenter{
+    margin-top:0px;
   }
 }
 
@@ -942,10 +1071,17 @@ textarea {
   .btnDetailServicesPuestaEnMarcha{
     margin-top: 33%;
   }
-
+  
+  #formCenter{
+    margin-top:0px;
+  }
 }
 
 @media (max-width: 320px) {
+
+  #servicesStyleTwo{
+    margin-right: 24px;
+  }
 
   #footerLogo {
     width: 12.12rem;
@@ -964,6 +1100,7 @@ textarea {
   .btnDetailServicesReinicio{
     padding: 11%;
     float: inherit;
+    margin-right: -2px;
   }
 
   .btnDetailServicesPuestaEnMarcha{

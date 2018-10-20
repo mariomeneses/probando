@@ -20,7 +20,7 @@
 	<link href="css/bootstrap-grid.min.css" rel="stylesheet" type="text/css" />
 	<link href="css/bootstrap-reboot.min.css" rel="stylesheet" type="text/css" />
 	<link href="css/reset.css" rel="stylesheet" type="text/css" />
-	<link href="css/style_v43.css" rel="stylesheet" type="text/css" />
+	<link href="css/style_v55.css" rel="stylesheet" type="text/css" />
 
 	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="img/favicon.png" type="image/png">
@@ -37,8 +37,10 @@
 				<div class="d-flex justify-content-end container" id="officeInfo">
 					<img src="img/reloj.png" alt="Reloj Rexcont">
 					<div class="mr-auto p-2">Lunes a Viernes 09:00 &#8226; 18:30</div>
+					<img src="img/wzp-icon.png" alt="WhatsApp Rexcont">
+					<div class="p-2"><a href="https://api.whatsapp.com/send?phone=56978244824" target="_blank">+56 9 78244824&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></div>
 					<img src="img/mail.png" alt="Mail Rexcont">
-					<div class="p-2"><a href="mailto:contacto@rexcont.cl">contacto@rexcont.cl</a></div>
+					<div class="p-2"><a href="mailto:contacto@rexcont.cl">contacto@rexcont.cl&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></div>
 					<img src="img/telefono.png" alt="telefono_rexcont">
 					<div class="p-2"><a href="tel:2 2605 1244">2 2605 1244</a> / <a href="tel:2 2605 1245">2 2605 1245</a></div>
 				</div>
@@ -111,7 +113,7 @@
 		</div>
 		<section id="about">
 			<div class="container">
-				<div class="row">
+				<div class="row" id="rowServicios">
 					<div class="col services">
 						<div id="hrService" class="services">
 							<div>
@@ -239,15 +241,13 @@
 					<div id="aboutLine"></div>
 					<div id="aboutText">
 						<p>
-							<b id="aboutStrong"><strong>Rexcont Adviser</strong></b> es una empresa orientada hacia las Pyme (Peque&ntilde;a y Mediana Empresa) con la sola <br>
-							finalidad de otorgar la mejor atenci&oacute;n a sus clientes, en un tiempo razonable y de manera confiable. <br><br>
+							<b id="aboutStrong"><strong>Rexcont Adviser</strong></b> es una empresa orientada hacia las Pyme (Peque&ntilde;a y Mediana Empresa) con la sola finalidad de otorgar la mejor atenci&oacute;n a sus clientes, en un tiempo razonable y de manera confiable.<br><br>
 						</p>
 						<p>
-							Nosotros estamos dispuestos a asesorarle en lo que usted requiera o necesite; <br>
-							mas aquellas sugerencias que podamos hacerle a su proceso administrativo. <br><br>
+							Nosotros estamos dispuestos a asesorarle en lo que usted requiera o necesite; mas aquellas sugerencias que podamos hacerle a su proceso administrativo. <br><br>
 						</p>
 						<p>
-							Es importante recalcar que hay procesos b&aacute;sicos o pilares fundamentales dentro de la administraci&oacute;n <br>
+							Es importante recalcar que hay procesos b&aacute;sicos o pilares fundamentales dentro de la administraci&oacute;n
 							de una Empresa o Negocio, sobre todo si se desea tomar las mejores decisiones para hacerla crecer. <br><br>
 						</p>
 					<!--	<p>
@@ -322,7 +322,8 @@
 				</div>
 				<div>
 					<div id="footerLine"></div>
-					<a href="https://www.facebook.com" target="_blank"><img src="img/facebook.png" id="fbIcon" alt="facebook Rexcont"></a>&emsp;<a href="mailto:contacto@rexcont.cl"><img src="img/mail.png" alt="mail Rexcont"></a> <p id="derechos">2018 Rexcont Adviser. Todos los derechos reservados.</p>
+					<a href="https://api.whatsapp.com/send?phone=56978244824" target="_blank"><img class="imgWsp" src="img/wzp-icon.png" alt="WhatsApp Rexcont">&nbsp;&nbsp;&nbsp;</a>
+					<a href="https://www.facebook.com" target="_blank"><img src="img/facebook.png" id="fbIcon" alt="facebook Rexcont">&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="mailto:contacto@rexcont.cl"><img src="img/mail.png" alt="mail Rexcont"></a> <p id="derechos">2018 Rexcont Adviser. Todos los derechos reservados.</p>
 				</div>
 			</div>
 		</footer>
