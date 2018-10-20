@@ -805,6 +805,39 @@ textarea {
 
 }
 
+@media (max-width: 640px) {
+  .btnDetailServicesRecursos{
+    margin-top: 19px;
+  }
+
+  .btnDetailServices{
+    margin-top: 5px;
+  }
+
+  .btnDetailServicesReinicio{
+    padding: 10px;
+    margin-top: 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  .btnDetailServicesRecursos{
+    margin-top: 20px;
+  }
+
+  .btnDetailServices{
+    margin-top: 7px;
+  }
+
+  .btnDetailServicesPuestaEnMarcha{
+    margin-top: 34px;
+  }
+
+  .btnDetailServicesReinicio{
+    padding: 9px;
+  }
+}
+
 @media screen and (max-width: 539px) {
 
   #officeInfo{
@@ -837,6 +870,17 @@ textarea {
 
 }
 
+@media (max-width: 480px) {
+  .btnDetailServicesPuestaEnMarcha{
+    margin-top: 13px;
+  }
+
+  .btnDetailServicesReinicio{
+    padding: 7px;
+    margin-top: 8px;
+  }
+}
+
 @media screen and (max-width: 414px) {
 
   #footerLogo {
@@ -862,6 +906,18 @@ textarea {
   .btnDetailServicesReinicio{
     margin-top: 10%;
     margin-bottom: 6%;
+  }
+}
+
+@media (max-width: 384px) {
+  
+  .btnDetailServicesRecursos{
+    margin-top: 28px;
+    padding: 8px;
+  }
+
+  .btnDetailServicesPuestaEnMarcha{
+    margin-top: 41px;
   }
 }
 
@@ -902,6 +958,7 @@ textarea {
 
   .btnDetailServicesRecursos{
     margin-top:20%;
+    padding: 12px;
   }
   
   .btnDetailServicesReinicio{
@@ -919,4 +976,4 @@ textarea {
 
 
 }
-/*FALTA 375 414 */
+/*FALTA 640 */
