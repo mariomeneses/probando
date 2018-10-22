@@ -132,13 +132,13 @@
 							<div id="servicesStyle">
 								<!-- hover servicios -->
 								<div id="servicesHover">
-									• Contratos de Trabajo.<br>
-									• Finiquitos.<br>
-									• Liquidaciones de Sueldo.<br>
-									• Cargas Leyes Sociales Previred.<br>
-									• Contratos especiales y ofertas de trabajo a extranjeros.<br>
-									• Orientaci&oacute;n para tr&aacute;mites de extranjer&iacute;a e Instituciones Previsionales.<br>
-									• Asesor&iacute;as Telef&oacute;nicas RR HH.<br>
+									<p> Contratos de Trabajo.</p><br>
+									<p> Finiquitos.</p><br>
+									<p> Liquidaciones de Sueldo.</p><br>
+									<p> Cargas Leyes Sociales Previred.</p><br>
+									<p> Contratos especiales y ofertas de trabajo a extranjeros.</p><br>
+									<p> Orientaci&oacute;n para tr&aacute;mites de extranjer&iacute;a e Instituciones Previsionales.</p><br>
+									<p> Asesor&iacute;as Telef&oacute;nicas RR HH.</p><br>
 								</div>
 							</div>
 						</div>
@@ -161,16 +161,16 @@
 							<div id="servicesStyle">
 								<!-- hover servicios -->
 								<div id="servicesHover">
-									• Renta Presunta*.<br>
-									• Tributaci&oacute;n Simplificada (Art&iacute;culo 14 ter Letra A)*.<br>
-									• Renta Atribuida (Art. 14 A)*.<br>
-									• Semi Integrado (Art. 14 B)*.<br>
-									• Calculo, cargas y  pago de impuestos online.<br>
-									• Contabilidad de acuerdo a normas vigentes.<br>
-									• Balance y Pre-Balance.<br>
-									• Calculo y carga de impuesto a la renta online.<br>
-									• Impuestos diferidos.<br>
-									• Asesor&iacute;as Tributarias.<br><br>
+									<p> Renta Presunta*.</p><br>
+									<p> Tributaci&oacute;n Simplificada (Art&iacute;culo 14 ter Letra A)*.</p><br>
+									<p> Renta Atribuida (Art. 14 A)*.</p><br>
+									<p> Semi Integrado (Art. 14 B)*.</p><br>
+									<p> Calculo, cargas y  pago de impuestos online.</p><br>
+									<p> Contabilidad de acuerdo a normas vigentes.</p><br>
+									<p> Balance y Pre-Balance.</p><br>
+									<p> Calculo y carga de impuesto a la renta online.</p><br>
+									<p> Impuestos diferidos.</p><br>
+									<p> Asesor&iacute;as Tributarias.</p><br><br>
 									<p id="smallLetter">*Nuevos reg&iacute;menes tributarios por reforma tributaria vigente.</p>
 								</div>
 							</div>
@@ -194,12 +194,12 @@
 							<div id="servicesStyle">
 								<!-- hover servicios -->
 								<div id="servicesHover">
-									• Confecci&oacute;n Escrituras Sociales empresas en un día.<br>
-									• Iniciaci&oacute;n de Actividades.<br>
-									• Evaluaci&oacute;n de personal.<br>
-									• Configuraci&oacute;n e Implementaci&oacute;n de Factura Electr&oacute;nica SII o de mercado.<br>
-									• Capacitaciones facturaci&oacute;n electr&oacute;nica.<br>
-									• Otros servicios adicionales para la puesta en marcha.<br>
+									<p> Confecci&oacute;n Escrituras Sociales empresas en un día.</p><br>
+									<p> Iniciaci&oacute;n de Actividades.</p><br>
+									<p> Evaluaci&oacute;n de personal.</p><br>
+									<p> Configuraci&oacute;n e Implementaci&oacute;n de Factura Electr&oacute;nica SII o de mercado.</p><br>
+									<p> Capacitaciones facturaci&oacute;n electr&oacute;nica.</p><br>
+									<p> Otros servicios adicionales para la puesta en marcha.</p><br>
 								</div>
 							</div>
 						</div>
@@ -224,12 +224,12 @@
 							<div id="servicesStyle" class="alignTextEnterpriseHover">
 								<!-- hover servicios -->
 								<div id="servicesHover">
-									• Evaluaci&oacute;n Financiera Empresa.<br>
-									• Evaluaci&oacute;n de recursos humanos.<br>
-									• Evaluaci&oacute;n de costos.<br>
-									• Reestructuraci&oacute;n departamentos.<br>
-									• T&eacute;rminos de giro.<br><br>
-									<p id="smallLetter">*Consulte por servicios especiales en regiones.</p>
+									<p> Evaluaci&oacute;n Financiera Empresa.</p><br>
+									<p> Evaluaci&oacute;n de recursos humanos.</p><br>
+									<p> Evaluaci&oacute;n de costos.</p><br>
+									<p> Reestructuraci&oacute;n departamentos.</p><br>
+									<p> T&eacute;rminos de giro.</p><br><br>
+									<p id="smallLetter"> *Consulte por servicios especiales en regiones.</p>
 								</div>
 							</div>
 						</div>
@@ -323,7 +323,7 @@
 				<div>
 					<div id="footerLine"></div>
 					<a href="https://api.whatsapp.com/send?phone=56978244824" target="_blank"><img class="imgWsp" src="img/wzp-icon.png" alt="WhatsApp Rexcont">&nbsp;&nbsp;&nbsp;</a>
-					<a href="https://www.facebook.com" target="_blank"><img src="img/facebook.png" id="fbIcon" alt="facebook Rexcont">&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="mailto:contacto@rexcont.cl"><img src="img/mail.png" alt="mail Rexcont"></a> <p id="derechos">2018 Rexcont Adviser. Todos los derechos reservados.</p>
+					<a href="https://www.facebook.com/victor.asencio.96" target="_blank"><img src="img/facebook.png" id="fbIcon" alt="facebook Rexcont">&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="mailto:contacto@rexcont.cl"><img src="img/mail.png" alt="mail Rexcont"></a> <p id="derechos">2018 Rexcont Adviser. Todos los derechos reservados.</p>
 				</div>
 			</div>
 		</footer>
