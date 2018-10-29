@@ -342,7 +342,7 @@
 						<p> Cargas Leyes Sociales Previred.</p><br>
 						<p> Contratos especiales y ofertas de trabajo a extranjeros.</p><br>
 						<p> Orientaci&oacute;n para tr&aacute;mites de extranjer&iacute;a e Instituciones Previsionales.</p><br>
-						<p> Asesor&iacute;as Telef&oacute;nicas RR HH.</p><br>
+						<p> Asesor&iacute;as Telef&oacute;nicas RR HH exclusivo s&oacute;lo clientes..</p><br>
 					</div>
 					<div><button type="button" class="btnCerrarModal" data-dismiss="modal">Cerrar</button></div>
 					<div class="modal-footer">
@@ -368,7 +368,7 @@
 						<p> Balance y Pre-Balance.</p><br>
 						<p> Calculo y carga de impuesto a la renta online.</p><br>
 						<p> Impuestos diferidos.</p><br>
-						<p> Asesor&iacute;as Tributarias.</p><br><br><br><br>
+						<p> Asesor&iacute;as Tributarias exclusivo s&oacute;lo clientes.</p><br><br><br><br>
 						<p id="smallLetter">*Nuevos reg&iacute;menes tributarios por reforma tributaria vigente.</p>
 					</div>
 					<div><button type="button" class="btnCerrarModal" data-dismiss="modal">Cerrar</button></div>
